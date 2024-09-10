@@ -1,0 +1,132 @@
+---
+
+---
+<section>
+    <div class="container white">
+        <div class="content-text">
+            <h2 class="title">Fútbol Masculino</h2>
+            <p class="description">
+                El fútbol masculino es más que un juego, es la pasión que corre por nuestras venas y nos define como equipo. 
+                Cada vez que entramos al campo, sentimos la adrenalina y el compromiso de dar lo mejor en cada jugada.
+                No importa el marcador, lo que importa es cómo jugamos: con entrega total, corazón en cada pase y una 
+                determinación inquebrantable. Luchamos por nuestros colores, por nuestros compañeros y por el honor de 
+                representar lo que somos. Aca no solo competimos, construimos una identidad basada en esfuerzo, disciplina y 
+                respeto. Porque el fútbol es nuestra vida, nuestra pasión, y en cada partido dejamos el alma en la cancha.
+            </p>
+        </div>
+        <div class="content-img">
+            <img src="/assets/images/he.png" alt="">
+        </div>
+    </div>
+    <div class="container white fem">
+        <div class="content-img">
+            <img src="/assets/images/she1.png" alt="">
+        </div>
+        <div class="content-text">
+            <h2 class="title">Fútbol Femenino</h2>
+            <p class="description">
+                El fútbol femenino, es un símbolo de cambio. Cada partido que jugamos, cada gol que celebramos, es un paso hacia un 
+                futuro donde la igualdad y el talento brillan por encima de todo. En nuestro equipo, no solo formamos jugadoras, 
+                formamos líderes. Mujeres que desafían estereotipos, que rompen barreras y que inspiran a las próximas generaciones. 
+                Juntas, son parte de un movimiento imparable, una revolución en cada pase, en cada victoria y en cada desafío. Porque 
+                el fútbol es más que un juego, es el espacio donde demostramos que podemos llegar tan lejos como soñemos.
+            </p>
+        </div>
+    </div>
+</section>
+
+<style>
+    section{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .container{
+        min-height: 760px;
+        display: flex;
+        background-color: var(--dark-blue);
+    }
+    .content-text{
+        max-width: 40%;
+        padding-inline: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        color: var(--white)
+    }
+    .title{
+        font-family: var(--h-font);
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .description{
+        font-family: var(--p-font);
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .content-img{
+        width: 60%;
+    }
+    .content-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .white{
+        background-color: var(--gray-back);
+    }
+    .container.white .content-text{
+        color: var(--black);
+    }
+    @media screen and (max-width: 1024px) {
+        .title{
+            font-size: 2.5rem;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .content-text{
+            max-width: 100%;
+            padding-inline: 2rem;
+        }
+        .content-img{
+            width: 100%;
+            padding: 2rem;
+        }
+        .fem .content-text{
+            order: -1;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .title{
+            font-size: 2.25rem;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .title{
+            font-size: 1.875rem;
+        }
+        .description{
+            font-family: var(--p-font);
+            font-size: 17px;
+            line-height: 1.5;
+        }
+        .container{
+            min-height: 560px;
+        }
+        section{
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+        .content-text{
+            padding-inline: 1rem;
+        }
+        .content-img{
+            padding: 1rem;
+        }
+        .content-text{
+            gap: 1rem;
+        }
+    }
+</style>

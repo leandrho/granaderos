@@ -1,0 +1,176 @@
+---
+
+const paths = [{name: 'Inicio', ref: '/'}, {name: 'El Club', ref: '/club'},{name: 'Contacto', ref: '/contacto'}];
+const currentPath = Astro.url.pathname;
+
+---
+<div class="container">
+    <nav>
+        <ul id="ul-nav">
+            {
+                paths.map((path) => (
+                    <li>
+                        <a  href={path.ref} class="nav-link">
+                            {path.name}
+                        </a>
+                        {
+                            currentPath==path.ref?
+                                (<div transition:name="navline-animation"  class="nav-line active" ></div>)
+                                :
+                                (<div class="nav-line" ></div>)
+                        }
+                    </li>
+                ))
+            }
+            <li><a href="/contacto" class="nav-but">Inscripciones</a></li>
+        </ul>
+    </nav>
+    <div class="btn">
+        <label for="menu" class="menu-open" aria-label="button menu"></label>
+        <input type="checkbox" id="menu"></input>
+    </div>
+</div>
+<script>
+    const navs = () => {
+        const ul = document.querySelector("#ul-nav");
+        if(!ul)
+             return;
+        const lis = ul!.querySelectorAll('li');
+     
+        const curPath = window.location.pathname;
+        for(let i = 0; i < lis.length ; ++i){
+            const a = lis[i].firstElementChild as HTMLAnchorElement;
+            const div = lis[i].lastElementChild;
+            const href = a.getAttribute('href');
+            div?.classList.remove('active')
+            if(href === curPath){
+                div?.classList.add('active');
+            }
+        }
+    }   
+    document.addEventListener('astro:page-load',navs);
+</script>
+<style>
+  
+    .container{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-inline: 2rem;
+    }
+    nav{
+        font-family: var(--h-font);
+        background-color: var(--gray);
+        display: flex;
+    }
+    ul{
+        display: flex;
+        gap: 1.5rem;
+    }
+    .nav-line{
+        padding-top: 5px;
+        border-bottom: 3px solid transparent;
+        transition: border-bottom-color ease 0.2s;
+    }
+    .active{
+        border-bottom-color: var(--yellow);
+    }
+    .nav-link{
+        color: inherit;
+        font-size: var(--link-size);
+    }
+    .nav-linsk:hover{
+       border-bottom: 3px solid rgba(17, 17, 17, 0.2);
+    }
+    .nav-but{
+        font-size: 17px;
+        color: var(--white);
+        background-color: var(--red);
+        padding: 0.5rem 1.5rem;
+        border-radius: 0.5rem;
+        letter-spacing: 2px;
+    }
+    .btn, #menu{
+        display: none;
+    } 
+    .menu-open{
+        background-image: url(/assets/images/hamb.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 44px;
+        width: 44px;
+        transition: background-image ease 1s 0.7s;
+    }
+    .btn:has(#menu:checked) .menu-open{
+        background-image: url(/assets/images/close.svg);
+    }
+    .container:has(#menu:checked) nav{
+        display: flex;
+        opacity: 1;
+        transform: translateX(0%);
+    }
+   
+    @media screen and (max-width: 1024px) {
+        .nav-link{
+            font-size: 18px;
+        }
+        .nav-but{
+            font-size: 15px;
+            padding: 0.1rem 1rem;
+            letter-spacing: 1px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .btn{
+            display: flex;
+            position: fixed;
+            height: 44px;
+            width: 44px;
+            right: 1rem;
+            top: 2rem;
+            z-index: 100;
+        }
+        nav{
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            inset: 0;
+            
+            z-index: 100;
+            transform: translateX(100%);
+            transition: transform ease 1s;
+            align-items: center;
+            justify-content: center;
+        }
+        nav ul{
+            flex-direction: column;
+            justify-content: center;
+
+            gap: 3rem;
+        }
+        .nav-link{
+            font-size: 24px;
+        }
+        .nav-but{
+            font-size: 18px;
+            padding: 1rem 2rem;
+            letter-spacing: 2px;
+        }
+       
+    }
+    @media screen and (max-width: 550px) {
+        .menu-open{
+            height: 32px;
+            width: 32px;
+        }
+        .nav-link{
+            font-size: 18px;
+        }
+        .nav-but{
+            font-size: 16px;
+            padding: 0.75rem 2rem;
+            letter-spacing: 2px;
+        }
+    }
+</style>

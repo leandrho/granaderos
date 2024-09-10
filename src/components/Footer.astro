@@ -1,0 +1,59 @@
+---
+
+---
+<footer class="footer">
+    <div class="top">
+        <figure>
+            <img src="/assets/images/brand.png" alt="">
+        </figure>
+    </div>
+    <div class="bottom">
+        <p>@Copyright - Club Deportivo Granaderos de Koslay - <span id="footer-year"></span></p>
+    </div>
+</footer>
+<style is:global>
+     .footer{
+        
+        margin-top: 80px;
+        background-color: var(--dark-blue);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 400px;
+    }
+    @media screen and (max-width: 550px) {
+        .footer{
+            margin-top: 50px;
+        }
+    }
+</style>
+<style>
+    .top{
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background-color: var(--dark-blue); */
+        color: var(--white);
+        font-family: var(--p-font);
+        font-weight: 300;
+        font-size: 14px;
+        width: 100%;
+        margin-bottom: 2rem;
+        letter-spacing: 1px;
+    }
+    @media screen and (max-width: 550px) {
+        .bottom{
+            font-size: 12px;
+        }
+    }
+</style>
+
+<script>
+   const year =  document.getElementById('footer-year') as HTMLElement;
+   year.innerHTML = String(new Date().getFullYear());
+</script>

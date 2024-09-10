@@ -1,0 +1,131 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+
+
+---
+<MainLayout>
+    <section>
+        <div class="content">
+            <h1>Club Deportivo Granaderos de Koslay</h1>
+            <div class="separator">
+                <h2>Misión</h2>
+                <p> El club nace con la misión de brindar a los niños y
+                    jóvenes de Juana Koslay un espacio seguro y enriquecedor, donde puedan
+                    aprender y crecer tanto como deportistas como personas. La escuela de
+                    fútbol tiene como objetivo principal la formación integral de los jóvenes,
+                    enfocándose en los valores de educación, respeto y solidaridad.
+                </p>
+            </div>
+            <div class="separator">
+                <h2>Objetivos</h2>
+                <h3>General</h3>
+                <p>
+                    Crear un espacio de formación deportiva y personal que sirva como
+                    alternativa para los jóvenes, alejándolos de situaciones de riesgo y
+                    fomentando un sentido de pertenencia hacia su comunidad y el Club
+                    Deportivo Granaderos de Koslay.
+                </p>
+                <h3>Específicos</h3>
+                <p> 
+                    <span>Fomentar la educación</span><br>Integrar valores educativos en la práctica del
+                    fútbol, enseñando a los niños la importancia del estudio y el esfuerzo
+                    personal.
+                </p>
+                <p>
+                    <span>Promover el respeto</span><br>Inculcar el respeto hacia los demás, tanto dentro como
+                    fuera del campo de juego, valorando el trabajo en equipo y la diversidad.
+                </p>
+                <p>
+                    <span>Desarrollar la solidaridad</span><br>Fomentar la ayuda mutua y la empatía, creando
+                    un ambiente de compañerismo y apoyo.
+                </p>
+                <p>
+                    <span>Capacitación a futuro</span><br>Formar a los jóvenes como futuros líderes y
+                    dirigentes del Club Deportivo Granaderos de Koslay, brindándoles
+                    herramienta
+                </p>
+            </div>
+        </div>
+    </section>
+</MainLayout>
+<style>
+    section{
+        display: flex;
+        justify-content: center;
+        font-family: var(--p-font);
+    }
+    .content{
+        padding: 4rem;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .separator{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    h1{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    span{
+        font-weight: bold;
+        font-size: 22px;
+    }
+    p{
+        font-size: 20px;
+    }
+    @media screen and (max-width: 1024px) {
+        h1{
+            font-size: 2.25rem;
+        }
+        h2{
+            font-size: 1.75rem;
+        }
+        h3{
+            font-size: 1.5rem;
+        }
+        span{
+            font-size: 20px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        section{
+            margin-top: 90px;
+        }
+        h1{
+            font-size: 2rem;
+        }
+        h2{
+            font-size: 1.5rem;
+        }
+        h3{
+            font-size: 1.25rem;
+        }
+        span{
+            font-size: 19px;
+        }
+        p{
+            font-size: 17px;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .content{
+            padding: 2rem;
+        }
+        h1{
+            font-size: 2rem;
+        }
+    }
+</style>

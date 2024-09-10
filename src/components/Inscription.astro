@@ -1,0 +1,91 @@
+---
+
+---
+<section class="container">
+    <div class="inscription">
+        <div class="content-text">
+            <h2 class="title">Sumate a nuestro equipo</h2>
+            <p class="description">
+                El fútbol no es solo un deporte, es una pasión que se vive. 
+                Si tenes entre 4 y 17 años, vení a formar parte del club donde
+                los sueños se hacen realidad. Desarrolla tu talento, crea 
+                amistades para toda la vida y conviértete en la próxima estrella. 
+                Contamos con equipos masculinos y femeninos. ¡Inscribite ahora y 
+                prepárate para la aventura de tu vida!
+            </p>
+        </div>
+        <a href="/contacto" class="btn">Unirme</a>
+    </div>
+</section>
+<style>
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .inscription{
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding-inline: 80px;
+        padding-block: 2rem;
+        margin-inline: 40px;
+        max-width: 60%;
+    }
+    .title{
+        font-family: var(--h-font);
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }   
+    .description{
+        font-family: var(--p-font);
+        font-size: 19px
+    }
+    .btn{
+        background-color: var(--red);
+        padding: 1rem 2rem;
+        max-width: max-content;
+        border-radius: 10px;
+        color: var(--white);
+        font-family: var(--p-font);
+        font-weight: 500;
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    @media screen and (max-width: 1024px) {
+        .title{
+            font-size: 2.25rem;
+        }
+        .inscription{
+    
+            padding-inline: 2rem;
+            margin-inline: 2rem;
+        }
+      
+    }
+    @media screen and (max-width: 768px) {
+        .title{
+            font-size: 2rem;
+        }
+        .description{
+            font-size: 20px
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .inscription{
+            padding-inline: 1.5rem;
+            margin-inline: 1rem;
+        }
+        .title{
+            font-size: 1.5rem;
+        }
+        .description{
+            font-size: 16px
+        }
+        .btn{
+            font-size: 15px;
+            padding: 0.875rem 2rem;
+        }
+    }
+</style>

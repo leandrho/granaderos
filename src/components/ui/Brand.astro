@@ -1,0 +1,65 @@
+---
+
+---
+<div class="brand-container">
+    <figure>
+        <img src="/assets/images/brand.png" alt="logo">
+    </figure>
+    <div class="brand-text">
+        <p>Club deportivo</p>
+        <p>Granaderos de koslay</p>
+    </div>
+</div>
+
+<style>
+    .brand-container{
+        max-width: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1rem;
+        background-color: var(--gray);
+        padding: 1rem 2rem;
+
+    }
+    .brand-text p:first-child,  .brand-text p:last-child{
+        font-family: var(--p-font);
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 1.75rem;
+    }
+    .brand-text p:last-child{
+        font-weight: 500;
+    }
+    figure{
+        max-width: 90px;
+    }
+    @media screen and (max-width: 1024px) {
+        .brand-container{
+            padding-inline: 1.5rem;
+        }
+        .brand-text p:first-child,  .brand-text p:last-child{
+            font-size: 1.25rem;
+        }
+        figure{
+            max-width: 70px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .brand-container{
+            padding-block: 1rem;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .brand-container{
+            padding-right: 0.5rem;
+        }
+        .brand-text p:first-child,  .brand-text p:last-child{
+            font-size: 1rem;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+</style>

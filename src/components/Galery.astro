@@ -1,0 +1,70 @@
+---
+const imgs = [{name: 'equipo infantil', src: '/assets/images/team1.jpeg'},{name: 'equipo mayor', src: '/assets/images/team2.jpeg'},{name: 'equipo femenino', src: '/assets/images/team3.jpeg'},{name: 'jugadora', src: '/assets/images/girl.jpeg'}];
+---
+<section class="container">
+        {
+            imgs.map((pic) => (
+                <figure class="pic">
+                    <img src={pic.src} alt={pic.name} class="img"/>
+                </figure>  
+            ))
+        }
+</section>
+
+<style>
+    .container{
+        display: flex;
+        align-items: center;
+        background-color: var(--gray-back);
+        padding: 4px 0rem;
+        height: 500px;
+        gap: 1.5rem;
+        overflow: hidden;
+    }
+    .pic{
+        width: 25%;
+        height: 70%;
+        transition: all 0.8s ease ;
+        display: flex;
+        align-items: center;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .pic:hover{
+        width: 50%;
+        height: 100%;
+    }
+    @media screen and (max-width: 1024px) {
+        .container{
+            flex-wrap: wrap;
+            height: auto;
+            margin-inline: 2rem;
+            justify-content: space-between;
+        }
+        .pic{
+            width: 48%;
+        }
+        .pic:hover{
+            width: 100%;
+            height: 100%;
+        }
+      
+    }
+    @media screen and (max-width: 768px) {
+        .pic{
+            width: 46%;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .container{
+            margin-inline: 1rem;
+        }
+        .pic{
+            width: 100%;
+        }
+    }
+    
+</style>
