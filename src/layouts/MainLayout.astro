@@ -32,7 +32,27 @@ const { black } = Astro.props;
 		<Footer />
 	</body>
 </html>
-
+<script>
+    const navs = () => {
+        const ul = document.querySelector("#ul-nav");
+        if(!ul)
+             return;
+        const lis = ul!.querySelectorAll('li');
+     
+        const curPath = window.location.pathname;
+        for(let i = 0; i < lis.length ; ++i){
+            const a = lis[i].firstElementChild as HTMLAnchorElement;
+            const div = lis[i].lastElementChild;
+            const href = a.getAttribute('href');
+            div?.classList.remove('active')
+            if(href === curPath){
+                div?.classList.add('active');
+            }
+        }
+    } 
+	navs();  
+	document.addEventListener('astro:after-swap',navs);
+</script>
 <style is:global>
 	body{
 		background-color: var(--gray);
