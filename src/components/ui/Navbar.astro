@@ -48,7 +48,7 @@ const currentPath = Astro.url.pathname;
             }
         }
     }   
-    document.addEventListener('astro:page-load',navs);
+    document.addEventListener('astro:before-swap',navs);
 </script>
 <style>
   
