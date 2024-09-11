@@ -2,7 +2,7 @@
 
 const paths = [{name: 'Inicio', ref: '/'}, {name: 'El Club', ref: '/club'},{name: 'Contacto', ref: '/contacto'}];
 const currentPath = Astro.url.pathname;
-
+console.log('path: ', currentPath)
 ---
 <div class="container">
     <nav>
@@ -14,10 +14,10 @@ const currentPath = Astro.url.pathname;
                             {path.name}
                         </a>
                         {
-                            currentPath==path.ref?
-                                (<div transition:name="navline-animation"  class="nav-line active" ></div>)
-                                :
+                            currentPath!==path.ref?
                                 (<div class="nav-line" ></div>)
+                                :
+                                (<div transition:name="navline-animat" class="nav-line active" ></div>)
                         }
                     </li>
                 ))
@@ -48,7 +48,17 @@ const currentPath = Astro.url.pathname;
             }
         }
     }   
-    document.addEventListener('astro:before-swap',navs);
+    navs();
+    document.addEventListener('astro:after-swap',navs);
+    // const init = () => {
+    //     const btnElem = document.querySelector('[data-id="btn"]') as HTMLButtonElement;
+    //     btnElem.addEventListener('click',()=>{
+    //         const navContainer = document.querySelector('.nav') as HTMLElement;
+    //         navContainer.classList.toggle('active');
+    //     });
+    // }
+    // init();
+    // document.addEventListener('astro:after-swap',init);
 </script>
 <style>
   
@@ -71,7 +81,6 @@ const currentPath = Astro.url.pathname;
     .nav-line{
         padding-top: 5px;
         border-bottom: 3px solid transparent;
-        transition: border-bottom-color ease 0.2s;
     }
     .active{
         border-bottom-color: var(--yellow);
