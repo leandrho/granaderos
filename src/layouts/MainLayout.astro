@@ -3,7 +3,7 @@ import { ViewTransitions } from "astro:transitions"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
 
-
+const { black } = Astro.props;
 ---
 <html lang="en">
 	<head>
@@ -23,18 +23,25 @@ import Footer from "../components/Footer.astro"
 		<title>Granaderos de Koslay</title>
 		<ViewTransitions/>
 	</head>
-	<body>
-		<Header />
+	<body class:list={
+		[
+			{'bg-color': black}
+		]}>
+		<Header/>
 		<slot />
 		<Footer />
 	</body>
 </html>
 
-<style>
+<style is:global>
 	body{
 		background-color: var(--gray);
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		--bg-color: var(--dark-blue);
+	}
+	.bg-color{
+		--bg-color: var(--black);
 	}
 </style>

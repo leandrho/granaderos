@@ -1,8 +1,7 @@
 ---
 
-const paths = [{name: 'Inicio', ref: '/'}, {name: 'El Club', ref: '/club'},{name: 'Contacto', ref: '/contacto'}];
-const currentPath = Astro.url.pathname;
-console.log('path: ', currentPath)
+const paths = [{name: 'Fútbol', ref: '/'},  {name: 'Rugby', ref: '/rugby'}, {name: 'El Club', ref: '/club'}, {name: 'Contacto', ref: '/contacto'}];
+// const currentPath = Astro.url.pathname;
 ---
 <div class="container">
     <nav>
@@ -13,12 +12,8 @@ console.log('path: ', currentPath)
                         <a  href={path.ref} class="nav-link">
                             {path.name}
                         </a>
-                        {
-                            currentPath!==path.ref?
-                                (<div class="nav-line" ></div>)
-                                :
-                                (<div transition:name="navline-animat" class="nav-line active" ></div>)
-                        }
+                        <div  class="nav-line" ></div>
+                        
                     </li>
                 ))
             }
@@ -50,15 +45,6 @@ console.log('path: ', currentPath)
     }   
     navs();
     document.addEventListener('astro:after-swap',navs);
-    // const init = () => {
-    //     const btnElem = document.querySelector('[data-id="btn"]') as HTMLButtonElement;
-    //     btnElem.addEventListener('click',()=>{
-    //         const navContainer = document.querySelector('.nav') as HTMLElement;
-    //         navContainer.classList.toggle('active');
-    //     });
-    // }
-    // init();
-    // document.addEventListener('astro:after-swap',init);
 </script>
 <style>
   
@@ -67,7 +53,7 @@ console.log('path: ', currentPath)
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-inline: 2rem;
+        padding-right: 2rem;
     }
     nav{
         font-family: var(--h-font);
@@ -122,12 +108,15 @@ console.log('path: ', currentPath)
    
     @media screen and (max-width: 1024px) {
         .nav-link{
-            font-size: 18px;
+            font-size: 17px;
         }
         .nav-but{
             font-size: 15px;
             padding: 0.1rem 1rem;
             letter-spacing: 1px;
+        }
+        ul{
+            gap: 1.25rem;
         }
     }
     @media screen and (max-width: 768px) {

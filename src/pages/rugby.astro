@@ -1,0 +1,143 @@
+---
+import Hero from "../components/Hero.astro"
+import Inscription from "../components/Inscription.astro"
+import MainLayout from "../layouts/MainLayout.astro"
+
+---
+<MainLayout black=true>
+    <section>
+        <Hero general={false} title={"Granaderos Rugby"}/>
+        <div class="wrapper">
+            <div class="section">
+                <div class="container white">
+                    <div class="content-text">
+                        <h2 class="title">Rugby Seven</h2>
+                        <p class="description">
+                            El rugby es el reflejo de la unión y el compromiso inquebrantable entre compañeros. 
+                            En cada partido, luchamos con la fuerza de nuestra convicción y la voluntad de ser mejores. 
+                            En nuestro club, el rugby representa la superación constante, donde el esfuerzo colectivo 
+                            nos empuja a alcanzar nuevas metas. Aquí, jugamos con el corazón y con la certeza de que 
+                            juntos somos invencibles.
+                        </p>
+                    </div>
+                    <div class="content-img">
+                        <img src="/assets/images/rugby-play.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <Inscription/>
+    </section>
+</MainLayout>
+
+<style>
+    section{
+        display: grid;
+    }
+    .wrapper{
+		place-self: center;
+		max-width: 1620px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+    .section{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        margin-bottom: 80px;
+    }
+    .container{
+        min-height: 760px;
+        display: flex;
+        background-color: var(--dark-blue);
+    }
+    .content-text{
+        max-width: 40%;
+        padding-inline: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        color: var(--white)
+    }
+    .title{
+        font-family: var(--h-font);
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+    .description{
+        font-family: var(--p-font);
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .content-img{
+        width: 60%;
+    }
+    .content-img img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .white{
+        background-color: var(--gray-back);
+    }
+    .container.white .content-text{
+        color: var(--black);
+    }
+    @media screen and (max-width: 1024px) {
+        .title{
+            font-size: 2.5rem;
+        }
+        .container{
+            flex-direction: column;
+        }
+        .content-text{
+            max-width: 100%;
+            padding-inline: 2rem;
+        }
+        .content-img{
+            width: 100%;
+            padding: 2rem;
+        }
+        .fem .content-text{
+            order: -1;
+        }
+        .section{
+            margin-block: 40px;
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .title{
+            font-size: 2.25rem;
+        }
+      
+    }
+    @media screen and (max-width: 550px) {
+        .title{
+            font-size: 1.875rem;
+        }
+        .description{
+            font-family: var(--p-font);
+            font-size: 17px;
+            line-height: 1.5;
+        }
+        .container{
+            min-height: 560px;
+        }
+        section{
+            gap: 1rem;
+            margin-top: 2.5rem;
+        }
+        .content-text{
+            padding-inline: 1rem;
+        }
+        .content-img{
+            padding: 1rem;
+        }
+        .content-text{
+            gap: 1rem;
+        }
+    }
+</style>

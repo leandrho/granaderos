@@ -1,9 +1,14 @@
 ---
 
+const { general, title } = Astro.props;
 ---
 <section class="hero-container">
-    <div class="hero"></div>
-    <h1 class="hero-title">Granaderos en el alma, fútbol en el corazón</h1>
+    <div class:list={[
+        "hero",
+        {"hero-rugby" : general===false}
+
+    ]}></div>
+    <h1 class="hero-title">{title}</h1>
 </section>
 
 <style>
@@ -18,13 +23,16 @@
         background-position: right;
         position: relative;
     }
+    .hero-rugby{
+        background-image: url(/assets/images/hero-rugby2.jpg);
+    }
     .hero::after{
         content: '';
         position: absolute;
         width: 100%;
         height: 100%;
         inset: 0;
-        background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent );
+        background-image: linear-gradient(to right, var(--bg-color) 60%, transparent );
         /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
     }
     .hero-title{
@@ -47,10 +55,14 @@
         .hero{
             background-size: 50% 100%;
         }
+        .hero::after{
+            background-image: linear-gradient(to right, var(--bg-color) 50%, transparent );
+            /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
+        }
     }
     @media screen and (max-width: 768px) {
         .hero-container{
-            margin-top: 15%;
+            margin-top: 4.5vh;
         }
         .hero-title{
             font-size: 2.25rem;
@@ -62,6 +74,10 @@
         .hero{
             background-size: 60% 100%;
         }
+        .hero::after{
+            background-image: linear-gradient(to right, var(--bg-color) 40%, transparent );
+            /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
+        }
     }
     @media screen and (max-width: 550px) {
         .hero-title{
@@ -69,6 +85,10 @@
         }
         .hero{
             background-size: 75% 100%;
+        }
+        .hero::after{
+            background-image: linear-gradient(to right, var(--bg-color) 30%, transparent );
+            /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
         }
     }
 </style>
