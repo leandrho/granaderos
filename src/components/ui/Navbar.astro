@@ -1,7 +1,6 @@
 ---
-
-const paths = [{name: 'Fútbol', ref: '/'},  {name: 'Rugby', ref: '/rugby'}, {name: 'El Club', ref: '/club'}, {name: 'Contacto', ref: '/contacto'}];
-// const currentPath = Astro.url.pathname;
+const paths = [{name: 'Fútbol', ref: '/'},  {name: 'Rugby', ref: '/rugby/'}, {name: 'El Club', ref: '/club/'}, {name: 'Contacto', ref: '/contact/'}];
+const currentPath = Astro.url.pathname;
 ---
 <div class="container">
     <nav>
@@ -9,11 +8,13 @@ const paths = [{name: 'Fútbol', ref: '/'},  {name: 'Rugby', ref: '/rugby'}, {na
             {
                 paths.map((path) => (
                     <li>
-                        <a  href={path.ref} class="nav-link">
+                        <a  href={path.ref} class="nav-link" data-link={currentPath}>
                             {path.name}
                         </a>
-                        <div  class="nav-line" ></div>
-                        
+                        {
+                            currentPath == path.ref ? (<div  transition:name="nav-transition" class="nav-line active" ></div>)
+                                                    : <div  class="nav-line" ></div>
+                        }
                     </li>
                 ))
             }
@@ -25,27 +26,6 @@ const paths = [{name: 'Fútbol', ref: '/'},  {name: 'Rugby', ref: '/rugby'}, {na
         <input type="checkbox" id="menu"></input>
     </div>
 </div>
-<script>
-    // const navs = () => {
-    //     const ul = document.querySelector("#ul-nav");
-    //     if(!ul)
-    //          return;
-    //     const lis = ul!.querySelectorAll('li');
-     
-    //     const curPath = window.location.pathname;
-    //     for(let i = 0; i < lis.length ; ++i){
-    //         const a = lis[i].firstElementChild as HTMLAnchorElement;
-    //         const div = lis[i].lastElementChild;
-    //         const href = a.getAttribute('href');
-    //         div?.classList.remove('active')
-    //         if(href === curPath){
-    //             div?.classList.add('active');
-    //         }
-    //     }
-    // }   
-    // navs();
-    // document.addEventListener('astro:after-swap',navs);
-</script>
 <style>
   
     .container{
