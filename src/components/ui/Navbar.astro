@@ -1,5 +1,5 @@
 ---
-const paths = [{name: 'Inicio', ref: '/'}, {name: 'Fútbol', ref: '/futbol'},  {name: 'Rugby', ref: '/rugby/'}, {name: 'El Club', ref: '/club/'}, {name: 'Contacto', ref: '/contact/'}];
+const paths = [{name: 'Inicio', ref: '/'}, {name: 'Fútbol', ref: '/futbol'},  {name: 'Rugby', ref: '/rugby/'}, {name: 'El Club', ref: '/club/'}];
 const currentPath = Astro.url.pathname;
 ---
 <div class="container">
@@ -18,7 +18,7 @@ const currentPath = Astro.url.pathname;
                     </li>
                 ))
             }
-            <li><a href="/contacto" class="nav-but">Inscripciones</a></li>
+            <li><a href="/contact" class="nav-but">Contacto</a></li>
         </ul>
     </nav>
     <div class="btn">

@@ -2,7 +2,7 @@
 import Hero from "../../components/Hero.astro"
 import Inscription from "../../components/Inscription.astro"
 import MainLayout from "../../layouts/MainLayout.astro"
-
+const description = "Unite al equipo de rugby de nuestro club y descubrí la esencia del esfuerzo, el trabajo en equipo y la pasión por el deporte. Si buscas un lugar donde la grandeza esté en el camino y no solo en el resultado, este es tu equipo. ¡Vení a formar parte de nuestra historia y deja tu huella en el campo!"
 ---
 <MainLayout black=true>
     <section>
@@ -26,7 +26,7 @@ import MainLayout from "../../layouts/MainLayout.astro"
                 </div>
             </div>
         </div>
-        <Inscription/>
+        <Inscription description={description}/>
     </section>
 </MainLayout>
 

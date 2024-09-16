@@ -1,20 +1,15 @@
 ---
-
+const {description} = Astro.props;
 ---
 <section class="container">
     <div class="inscription">
         <div class="content-text">
             <h2 class="title">Sumate a nuestro equipo</h2>
             <p class="description">
-                El fútbol no es solo un deporte, es una pasión que se vive. 
-                Si tenes entre 4 y 17 años, vení a formar parte del club donde
-                los sueños se hacen realidad. Desarrolla tu talento, crea 
-                amistades para toda la vida y conviértete en la próxima estrella. 
-                Contamos con equipos masculinos y femeninos. ¡Inscribite ahora y 
-                prepárate para la aventura de tu vida!
+                {description}
             </p>
         </div>
-        <a href="/contacto" class="btn">Unirme</a>
+        <a href="/contact" class="btn">Unirme</a>
     </div>
 </section>
 <style>
