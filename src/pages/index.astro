@@ -1,34 +1,14 @@
 ---
+
 import Hero from "../components/Hero.astro"
 import MainLayout from "../layouts/MainLayout.astro"
-import Inscription from "../components/Inscription.astro"
-import Futbol from "../components/Futbol.astro"
-import Galery from "../components/Galery.astro"
 
 ---
 <MainLayout>
 	<main>
-		<Hero title={"Granaderos en el alma, fútbol en el corazón"}/>
+		<Hero general="home" title={"Club Deportivo"} title2={"Granaderos de Koslay"} subtitle={"Grandeza en el camino"}/>
 		<div class="container">
-			<Futbol/>
-			<Galery/>
-			<Inscription/>
+			
 		</div>
 	</main>
 </MainLayout>
-
-<style>
-	main{
-		width: 100%;
-		display: grid;
-		background-color: var(--gray);
-	}
-	.container{
-		place-self: center;
-		max-width: 1620px;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		gap: 3rem;
-	}
-</style>

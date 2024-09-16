@@ -1,30 +1,56 @@
 ---
 
-const { general, title } = Astro.props;
+const { general, title,title2, subtitle } = Astro.props;
+console.log('GENERAL:')
 ---
-<section class="hero-container">
+<section class:list={[
+    "hero-container",
+    {"blue" : general==='home'}
+]}>
     <div class:list={[
         "hero",
-        {"hero-rugby" : general===false}
+        {"hero-home" : general==='home'},
+        {"hero-futbol" : general==='futbol'},
+        {"hero-rugby" : general==='rugby'}
 
     ]}></div>
-    <h1 class="hero-title">{title}</h1>
+    <div class="text">
+        <h1 class="hero-title">{title}</h1>
+        <h2 class="hero-title">{title2}</h2>
+        {
+            subtitle && <h3 class="hero-subtitle">{subtitle}</h3>
+        }
+    </div>
+   
+    
 </section>
 
 <style>
     .hero-container{
         position: relative;
     }
+    .blue{
+        background-color: var(--bg-color);
+    }
     .hero{
         height: 800px;
-        background-image: url(/assets/images/hero1.jpg);
         background-repeat: no-repeat;
+        position: relative;
+    }
+    .hero-home{
+        background-image: url(/assets/images/escudo.png);
+        background-size: 330px 330px;
+        background-position: 80%;
+    }
+    .hero-futbol{
+        background-image: url(/assets/images/hero1.jpg);
         background-size: 40% 100%;
         background-position: right;
-        position: relative;
     }
     .hero-rugby{
         background-image: url(/assets/images/hero-rugby2.jpg);
+        background-size: 40% 100%;
+        background-position: right;
     }
     .hero::after{
         content: '';
@@ -35,22 +61,39 @@ const { general, title } = Astro.props;
         background-image: linear-gradient(to right, var(--bg-color) 60%, transparent );
         /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
     }
-    .hero-title{
+    .hero-home::after{
+        background-image: none;
+    }
+    .text{
         position: absolute;
-        color: var(--white);
         top: 50%;
         left: 10%;
         transform: translateY(-50%);
+        max-width: 50%;
+        z-index: 100;
+    }
+    .hero-title{
+        color: var(--white);
         font-size: 4rem;
         text-transform: uppercase;
         font-family: var(--p-font);
         font-weight: 500;
-        max-width: 600px;
-
+    }
+    .hero-subtitle{
+        margin-top: 3rem;
+        font-family: var(--p-font);
+        font-weight: 300;
+        color: var(--white);
+        text-align: end;
+        font-size: 2rem;
     }
     @media screen and (max-width: 1024px) {
         .hero-title{
             font-size: 3rem;
+        }
+        .hero-subtitle{
+       
+            font-size: 1.5rem;
         }
         .hero{
             background-size: 50% 100%;
@@ -58,6 +101,13 @@ const { general, title } = Astro.props;
         .hero::after{
             background-image: linear-gradient(to right, var(--bg-color) 50%, transparent );
             /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
+        }
+        .hero-home{
+            background-size: 230px 230px;
+            background-position: 80%;
+        }
+        .hero-home::after{
+            background-image: none;
         }
     }
     @media screen and (max-width: 768px) {
@@ -67,6 +117,9 @@ const { general, title } = Astro.props;
         .hero-title{
             font-size: 2.25rem;
             max-width: 400px;
+        }
+        .hero-subtitle{
+            font-size: 1.35rem;
         }
         .hero{
             height: 500px;
@@ -78,17 +131,47 @@ const { general, title } = Astro.props;
             background-image: linear-gradient(to right, var(--bg-color) 40%, transparent );
             /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
         }
+        .hero-home{
+            background-size: 180px 180px;
+            background-position: 85%;
+        }
+        .hero-home::after{
+            background-image: none;
+        }
     }
     @media screen and (max-width: 550px) {
+        .text{
+            max-width: 100%;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            width: 90%;
+        }
         .hero-title{
-            font-size: 2rem;
+            font-size: 1.75rem;
+            max-width: 100%;
+            text-align: center;
+        }
+        .hero-subtitle{
+            margin-top: 1rem;
+            font-size: 1.25rem;
+            text-align: center;
         }
         .hero{
             background-size: 75% 100%;
+            height: auto;
+            min-height: 450px;
         }
         .hero::after{
             background-image: linear-gradient(to right, var(--bg-color) 30%, transparent );
             /* background-image: linear-gradient(to right, var(--dark-blue) 60%, transparent 95%, var(--dark-blue) 100%); */
+        }
+        .hero-home{
+            background-size: 110px 110px;
+            background-position: 50% 80%;
+        }
+        .hero-home::after{
+            background-image: none;
         }
     }
 </style>
