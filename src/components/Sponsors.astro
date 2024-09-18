@@ -2,18 +2,25 @@
 ---
 <section class="container">
     <div class="sponsors">
-        <figure class="sponsor">
-            <img src="../assets/images/cruce.png" alt="" class="sponsor-img">
-            <figcaption>El Nuevo Cruce</figcaption>
-        </figure>
-        <figure class="sponsor">
-            <img src="../assets/images/martilleros.png" alt="" class="sponsor-img">
-            <figcaption>Martilleros Group Inmobiliaria</figcaption>
-        </figure>
+        <a href="https://www.facebook.com/p/Parrilla-El-Nuevo-Cruce-100057517056812/" aria-label="link sponsor web" target="_blank">
+            <figure class="sponsor">
+                <img src="../assets/images/cruce.png" alt="" class="sponsor-img">
+                <figcaption>El Nuevo Cruce</figcaption>
+            </figure>
+        </a>
+        <a href="https://www.instagram.com/martillerosgroupinmobiliaria/" aria-label="link sponsor web" target="_blank">
+            <figure class="sponsor">
+                <img src="../assets/images/martilleros.png" alt="" class="sponsor-img">
+                <figcaption>Martilleros Group Inmobiliaria</figcaption>
+            </figure>
+        </a>
     </div>
 </section>
 
 <style>
+    a{
+        text-decoration: none;
+    }
     .container{
         width: 100%;
         min-height: 10vh;
@@ -36,8 +43,10 @@
         filter: grayscale(1);
     }
     figcaption{
+        margin-top: 0.5rem;
         text-align: center;
         font-family: var(--p-font);
         font-size: 13px;
+        color: var(--black);
     }
 </style>
