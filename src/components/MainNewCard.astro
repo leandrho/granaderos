@@ -1,0 +1,67 @@
+---
+
+---
+<article class="card-container">
+    <div class="card-left">
+        <img src="./assets/images/she.png" alt="">
+    </div>
+    <div class="card-right">
+        <div class="card-content">
+            <h2 class="card-title">Titulo noticia</h2>
+            <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cupiditate similique laborum, 
+                repellendus saepe tempora, sint fugit labore provident tempore sit ab illum. Expedita sit repellendus 
+                consectetur tempora recusandae. Sapiente?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate cupiditate similique laborum
+            </p>
+        </div>
+        <div class="card-link">
+            <a href="#" >Leer mas..</a>
+        </div>
+    </div>
+</article>
+
+<style>
+    .card-container{
+        max-width: 700px;
+        max-height: 400px;
+        display: flex;
+
+        background-color: var(--white);
+        box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .card-left{
+        width: 50%;
+    }
+    img{
+        max-height: 100%;
+        width: 100%;
+        object-fit: fill;
+    }
+    .card-right{
+        width: 50%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: var(--p-font);
+    
+    }
+    .card-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .card-link a{
+        color: var(--red);
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .card-title{
+        font-size: 24px;
+    }
+    .card-text{
+        line-height: 1.4;
+        font-size: 16px;
+    }
+</style>
