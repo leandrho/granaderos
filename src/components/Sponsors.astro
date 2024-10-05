@@ -20,6 +20,12 @@
                 <figcaption>Parrilla Chareun</figcaption>
             </figure>
         </a>
+        <a href="https://www.instagram.com/_mercaditooscar/" aria-label="link sponsor web" target="_blank">
+            <figure class="sponsor">
+                <img src="../assets/images/oscar.png" alt="" class="sponsor-img">
+                <figcaption>Mercadito y Carniceria Oscar</figcaption>
+            </figure>
+        </a>
     </div>
 </section>
 
@@ -39,9 +45,11 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        gap: 1rem;
+        flex-wrap: wrap;
     }
     figure{
-        max-width: 100px;
+        max-width: 90px;
     }
     img{
         width: 100%;
@@ -54,5 +62,28 @@
         font-family: var(--p-font);
         font-size: 13px;
         color: var(--black);
+    }
+    @media screen and (max-width: 1024px) {
+        figure{
+            max-width: 80px;
+        }
+        a{
+            display: block;
+            width: 18%; 
+            display: flex;
+            justify-content: center;
+        }
+      
+    }
+    @media screen and (max-width: 768px) {
+       
+    }
+    @media screen and (max-width: 550px) {
+        figure{
+            max-width: 60px;
+        }
+        figcaption{
+            font-size: 11px;
+        }
     }
 </style>
