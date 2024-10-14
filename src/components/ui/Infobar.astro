@@ -4,7 +4,7 @@
 ---
 <div class="infobar">
     <div class="info-container">
-        <p class="info-date" id="infodate">Lunes, Agosto 05, 2024</p>
+        <p class="info-date" id="infodate"></p>
         <div class="logos">
             <a class="info-logo info-logo-ins" href="https://www.instagram.com/granaderos_de_koslay/">
                 <svg class="icon" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#AD0000" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -68,3 +68,30 @@
     }
 
 </style>
+<script is:inline >
+    const  obtenerFechaActual= () => {
+        const dias = ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'];
+        const meses = [
+            'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio',
+            'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'
+        ];
+
+        const fecha = new Date();
+
+        const [, , dia, año] = fecha.toString().split(' ');
+
+        const diaSemana = dias[fecha.getDay()];
+        const mes = meses[fecha.getMonth()];
+
+        const diaConCero = dia.padStart(2, '0');
+
+        return `${diaSemana}, ${mes} ${diaConCero}, ${año}`;
+    }
+    const handleInfobarDate = () => {
+        document.getElementById("infodate").innerText = obtenerFechaActual();
+        
+    };
+
+    handleInfobarDate();
+    document.addEventListener("astro:after-swap", () => handleInfobarDate());
+</script>

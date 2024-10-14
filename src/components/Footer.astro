@@ -1,5 +1,5 @@
 ---
-
+const year = new Date().getFullYear();
 ---
 <footer class="footer">
     <div class="top">
@@ -51,7 +51,11 @@
     }
 </style>
 
-<script>
-   const year =  document.getElementById('footer-year') as HTMLElement;
-   year.innerHTML = String(new Date().getFullYear());
+<script is:inline >
+    const handleFooterYear = () => {
+        document.getElementById("footer-year").innerText = new Date().getFullYear();
+    };
+
+    handleFooterYear();
+    document.addEventListener("astro:after-swap", () => handleFooterYear());
 </script>
