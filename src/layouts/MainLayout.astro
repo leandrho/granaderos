@@ -2,6 +2,7 @@
 import { ViewTransitions } from "astro:transitions"
 import Header from "../components/Header.astro"
 import Footer from "../components/Footer.astro"
+import '/public/css/global.css'
 
 const { black } = Astro.props;
 ---
@@ -9,7 +10,7 @@ const { black } = Astro.props;
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
-        <link rel="stylesheet" href="./css/global.css">
+       
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content="Club Deportivo Granaderos de Koslay - Fútbol Masculino y Femenino - 4 a 17 años">
