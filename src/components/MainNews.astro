@@ -1,0 +1,52 @@
+---
+import MainNewCard from "./MainNewCard.astro"
+import NewCard from "./NewCard.astro"
+import { news } from "../data/news.js"
+
+---
+<section class="section">
+    {
+      
+        news.map((n)=>(
+            n.priority === 1 &&
+            <div class="main-new">
+                <MainNewCard title={n.title} description={n.description} img={n.img} id={n.id}/>
+            </div>
+        ))
+            
+    }
+  
+    <div class="news">
+    {
+        news.map((n)=>(
+            n.priority !== 1 &&
+            <NewCard title={n.title} description={n.description} img={n.img} id={n.id}/>
+        ))
+    }
+    </div>
+</section>
+
+<style>
+    .section{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .news{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        max-width: 800px;
+    }
+    @media screen and (max-width: 1024px) {
+   
+    }
+    @media screen and (max-width: 768px) {
+        .news{
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        
+    }
+</style>
