@@ -18,10 +18,11 @@ import MainLayout from "../layouts/MainLayout.astro"
 			<div class="news">
 				<div class="title-cont">
 					<h2 class="title">Noticias principales</h2>
-					<a href="#" class="link">Ver todas las noticias</a>
+					<a href="/news" class="link-d">Ver todas las noticias</a>
 				</div>
 				
 				<MainNews/>
+				<a href="/news" class="link-m">Ver todas las noticias</a>
 			</div>
 			<!-- <aside>
 				<h2 class="title">Partidos</h2>
@@ -78,6 +79,9 @@ import MainLayout from "../layouts/MainLayout.astro"
 		flex-direction: column;
 		gap: 0.25rem;
 	}
+	.link-m{
+		display: none;
+	}
 	@media screen and (max-width: 1024px) {
    
 	}
@@ -91,9 +95,14 @@ import MainLayout from "../layouts/MainLayout.astro"
 		.title-cont{
 			flex-direction: column;
 		}
-		.link{
-			align-self: flex-end;
-			font-size: 12px;
+		.link-d{
+			display: none;
+		}
+		.link-m{
+			margin-top: 2rem;
+			display: block;
+			align-self: center;
+			font-size: 13px;
 		}
 	}
 </style>
