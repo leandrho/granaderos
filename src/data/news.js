@@ -5,6 +5,7 @@ export const news = [
         brief: "¡Arrancó la temporada! La categoria sub 14 de femenino, ya comenzó su participación en la liga.",
         description: "¡Arrancó la temporada! La categoria sub 14 de femenino, ya comenzó su participación en la liga. Se enfrentará con los equipos Eva Fútbol Club, San Luis FC, Fusión FC, entre otros. Proximo partido contra Fusión FC domingo 13 - 10:30hs Ave fénix.",
         img: "/assets/images/noticias/arranca-femsbu14.jpeg",
+        date: "16 de Octubre del 2024",
         priority: 1,
         tags: []
     },
@@ -14,6 +15,7 @@ export const news = [
         brief: "Este domingo y lunes Granaderos de Koslay juega de local",
         description: "Este domingo y lunes Granaderos de Koslay juega de local. Todos juntos vamos a alentar a nuestros chicos!!",
         img: "/assets/images/noticias/cronograma-13y14oct.jpeg",
+        date: "16 de Octubre del 2024",
         priority: 2,
         tags: []
     },
@@ -23,6 +25,7 @@ export const news = [
         brief: "",
         description: "La 7ma este Domingo 6 de Octubre a las 17hs, se enfrenta a San Antonio E.G",
         img: "/assets/images/noticias/fecha7-7ma.jpg",
+        date: "16 de Octubre del 2024",
         priority: 2,
         tags: []
     },
@@ -32,6 +35,7 @@ export const news = [
         brief: "",
         description: "La 9na este Domingo 6 de Octubre a las 10hs, se enfrenta a el Club Atletico El Bufalo",
         img: "/assets/images/noticias/fecha7-9na.jpg",
+        date: "16 de Octubre del 2024",
         priority: 2,
         tags: []
     },
