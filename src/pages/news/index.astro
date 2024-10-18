@@ -1,13 +1,59 @@
 ---
+import NewCard from "../../components/NewCard.astro"
+import { news } from "../../data/news"
 import MainLayout from "../../layouts/MainLayout.astro"
+
 ---
 <MainLayout>
-    <h2>Sección en construcción...</h2>
+    <section class="container">
+        <div class="content">
+            {
+                news.map((n)=>(
+                    <div class="card">
+                        <NewCard title={n.title} description={n.description} img={n.img} id={n.id} />
+                    </div>
+                ))
+            }
+        </div>
+    </section>
 </MainLayout>
 
 <style>
-    h2{
-        margin: 3rem;
-        margin-top: 120px;
+    .container{
+        padding-block: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+    }
+    .content{
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    }
+    @media screen and (max-width: 1024px) {
+        .container{
+            padding-block: 40px;
+        }
+        .content{
+            max-width: 100%;
+            grid-template-columns: 1fr 1fr;
+            padding-inline: 1rem;
+
+        }
+    }
+    @media screen and (max-width: 768px) {
+        .container{
+            padding-top: 140px;
+        }
+        .content{
+            grid-template-columns: 1fr;
+        }
+    }
+    @media screen and (max-width: 550px) {
+        .container{
+            padding-top: 120px;
+        }
     }
 </style>
