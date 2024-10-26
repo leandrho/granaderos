@@ -93,7 +93,7 @@ const currentPath = Astro.url.pathname;
         background-size: cover;
         height: 44px;
         width: 44px;
-        transition: background-image ease 1s 0.7s;
+        transition: background-image ease 5s 0.3s;
     }
     .btn:has(#menu:checked) .menu-open{
         background-image: url(/assets/images/close.svg);
@@ -153,7 +153,7 @@ const currentPath = Astro.url.pathname;
             
             z-index: 100;
             transform: translateX(100%);
-            transition: transform ease 1s;
+            transition: transform ease 0.7s;
             align-items: center;
             justify-content: center;
         }
