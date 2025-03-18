@@ -10,7 +10,7 @@ const { title, description, img, id} = Astro.props;
         <div class="card-content">
             <h2 class="card-title">{title}</h2>
             <p class="card-text">
-                {description}
+                {description.substring(0,120)+'...'}
             </p>
         </div>
         <div class="card-link">

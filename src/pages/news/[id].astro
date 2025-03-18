@@ -29,7 +29,12 @@ const { newo }  = Astro.props;
                 </figure>
             </div>
             <div class="content-bottom">
-                <p class="description">{newo.description}</p>
+                <p class="description">{newo.description.split('\n').map((line) => (
+                    <>
+                      {line}
+                      <br />
+                    </>
+                  ))}</p>
             </div>
         </div>
     </section>
