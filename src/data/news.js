@@ -6,7 +6,7 @@ export const news = [
         description: "¡Arrancó la temporada! La categoria sub 14 de femenino, ya comenzó su participación en la liga. Se enfrentará con los equipos Eva Fútbol Club, San Luis FC, Fusión FC, entre otros. Proximo partido contra Fusión FC domingo 13 - 10:30hs Ave fénix.",
         img: "/assets/images/noticias/arranca-femsbu14.jpeg",
         date: "16 de Octubre del 2024",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -39,4 +39,25 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 5,
+        title: "¡Se viene la 2ª fecha del Torneo Apertura! ⚽ ",
+        brief: "Consulta el cronograma completo",
+        description: "Este fin de semana, el club se viste de gala para recibir la segunda fecha del Torneo Apertura.\n¡Prepárate para vivir jornadas llenas de pasión y fútbol! \n¡No te pierdas ningún partido! Ven a disfrutar de un fin de semana a puro fútbol en familia.",
+        img: "/assets/images/noticias/crono-32025.jpeg",
+        date: "18 de Marzo del 2025",
+        priority: 1,
+        tags: []
+    },
+    { 
+        id: 6,
+        title: "En esta fecha visitamos a Serranías F.C ⚽ ",
+        brief: "¡No te pierdas este partidazo! ¡Vení a alentar al club!",
+        description: "En la segunda fecha del Torneo Apertura, nuestro equipo visitará a Serranías F.C. ¡Vamos a alentar al club!",
+        img: "/assets/images/noticias/vsserranias32025.jpeg",
+        date: "18 de Marzo del 2025",
+        priority: 2,
+        tags: []
+    },
 ];
+news.reverse();
