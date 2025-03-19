@@ -79,5 +79,15 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 9,
+        title: "Horarios de entrenamiento actualizados",
+        brief: "¡Entrená con nosotros! Consultá los horarios de cada categoría",
+        description: "En la imagen, encontrarás los días y horarios de entrenamiento.\n\n¡Te esperamos en la cancha para vivir la pasión del fútbol!",
+        img: "/assets/images/noticias/horarios-32025.jpeg",
+        date: "19 de Marzo del 2025",
+        priority: 2,
+        tags: []
+    },
 ];
 news.reverse();
