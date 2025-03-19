@@ -59,5 +59,25 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 7,
+        title: "¡Tu pasión, tu equipo! Sumate al femenino de Granaderos de Koslay",
+        brief: "¡No te pierdas esta oportunidad! ¡Inscribite ya!",
+        description: "¿Tenés entre 12 y 16 años y te apasiona el fútbol? ¡Esta es tu oportunidad!\nVení a formar parte del equipo femenino de Granadas y desarrollá todo tu talento.",
+        img: "/assets/images/noticias/femFree.jpeg",
+        date: "19 de Marzo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 8,
+        title: "La categoría 2015 dice presente en el Apertura",
+        brief: "Semillero de campeones",
+        description: "Nuestros pequeños gigantes de la categoría 2015 están dejando todo en la cancha. Con pasión y garra, estos futuros cracks están demostrando su talento en el Torneo Apertura 2025.\n \n¡Agradecemos a los padres, familiares y entrenadores por su apoyo incondicional!\n \n¡Vení a alentar a nuestros pequeños gigantes! ¡Te esperamos en la cancha!",
+        img: "/assets/images/noticias/team-15-32025.jpeg",
+        date: "19 de Marzo del 2025",
+        priority: 2,
+        tags: []
+    },
 ];
 news.reverse();
