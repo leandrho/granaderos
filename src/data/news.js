@@ -99,6 +99,17 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 11,
+        title: "Este domingo se vive el fútbol con todo!",
+        brief: "Granaderos de Koslay vs EFI Junior\n Domingo 27 de abril  9:30 AM",
+        description: "Cancha: Ave Fénix\n\nSe viene un partidazo y vos tenés que estar ahí.\n¡Vamos a alentar con todo! ¡No importa el frío, no importa la hora, lo importante es el aguante!",
+        img: "/assets/images/noticias/masc200827abril.jpeg",
+        date: "22 de Abril del 2025",
+        priority: 1,
+        tags: []
+    },
+   
 
 ];
 news.reverse();
