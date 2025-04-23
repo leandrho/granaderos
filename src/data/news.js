@@ -46,7 +46,7 @@ export const news = [
         description: "Este fin de semana, el club se viste de gala para recibir la segunda fecha del Torneo Apertura.\n¡Prepárate para vivir jornadas llenas de pasión y fútbol! \n¡No te pierdas ningún partido! Ven a disfrutar de un fin de semana a puro fútbol en familia.",
         img: "/assets/images/noticias/crono-32025.jpeg",
         date: "18 de Marzo del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -89,5 +89,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 10,
+        title: "¡Sub 14 femenino!",
+        brief: "Este domingo 27 de abril se vive un gran duelo en la cancha de Ave Fénix.",
+        description: "Granaderos de Koslay se enfrentan a Búfalo de La Punta en un partido que promete emoción y garra desde el primer minuto.\n\nHora: 12:30 hrs\nLugar: Cancha Ave Fénix \n\n¡No faltes! Vení a apoyar a tu equipo y disfruta de una jornada llena de buen fútbol.",
+        img: "/assets/images/noticias/femenino27abril.jpeg",
+        date: "22 de Abril del 2025",
+        priority: 2,
+        tags: []
+    },
+
 ];
 news.reverse();
