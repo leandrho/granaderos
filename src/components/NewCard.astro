@@ -1,6 +1,6 @@
 ---
 
-const { title, description, img, id} = Astro.props;
+const { title, description, img, id, date} = Astro.props;
 ---
 <article class="card-container">
     <div class="card-top">
@@ -13,12 +13,19 @@ const { title, description, img, id} = Astro.props;
                 {description.substring(0,120)+'...'}
             </p>
         </div>
-        <div class="card-link">
-            <a href=`/news/${id}` >Leer mas..</a>
+        <div class="card-foot">
+            <div class="card-link">
+                <a href=`/news/${id}` >Leer mas..</a>
+            </div>
+            <p class="card-date">{date}</p>
         </div>
     </div>
 </article>
 <style>
+    .card-date{
+        color: var(--graydate);
+        font-size: 12px;
+    }
     .card-container{
         max-width: 390px;
         height: 400px;
@@ -63,5 +70,10 @@ const { title, description, img, id} = Astro.props;
     .card-text{
         line-height: 1.2;
         font-size: 14px;
+    }
+    .card-foot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 </style>

@@ -9,6 +9,7 @@
     --gray: hsl(0, 0%, 94%);
     --gray-origin: hsl(0, 0%, 98%);
     --gray-back: hsl(0, 0%, 94%);
+    --graydate: hsl(0, 0%, 20%);
 
     --h-font: 'Monomaniac One', sans-serif;
     --p-font: 'Roboto Condensed', sans-serif;

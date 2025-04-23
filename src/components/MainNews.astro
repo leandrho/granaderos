@@ -10,7 +10,7 @@ import { news } from "../data/news.js"
         news.map((n)=>(
             n.priority === 1 &&
             <div class="main-new">
-                <MainNewCard title={n.title} description={n.description} img={n.img} id={n.id}/>
+                <MainNewCard title={n.title} description={n.description} img={n.img} id={n.id} date={n.date}/>
             </div>
         ))
             
@@ -20,7 +20,7 @@ import { news } from "../data/news.js"
     {
         news.map((n)=>(
             n.priority !== 1 &&
-            <NewCard title={n.title} description={n.description} img={n.img} id={n.id}/>
+            <NewCard title={n.title} description={n.description} img={n.img} id={n.id} date={n.date}/>
         ))
     }
     </div>
