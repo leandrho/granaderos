@@ -118,7 +118,17 @@ export const news = [
         date: "22 de Abril del 2025",
         priority: 2,
         tags: []
-    },   
+    },
+    { 
+        id: 13,
+        title: "¡VAMOS GRANADEROS DE KOSLAY! 2015 Presente con Orgullo",
+        brief: "Este domingo los Granaderos de Koslay visitan al Club Lince",
+        description: "Este domingo los Granaderos de Koslay visitan al Club Lince en busca de un triunfo contundente.\n\n¡A dejar el alma en la cancha!\n¡Vamos Granaderos!",
+        img: "/assets/images/noticias/masc201527abril.jpeg",
+        date: "22 de Abril del 2025",
+        priority: 2,
+        tags: []
+    },
 
 ];
 news.reverse();
