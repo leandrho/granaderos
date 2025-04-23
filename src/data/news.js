@@ -109,7 +109,16 @@ export const news = [
         priority: 1,
         tags: []
     },
-   
+    { 
+        id: 12,
+        title: "Los más peques también juegan con el corazón!",
+        brief: "Categoría 2013\nGranaderos de Koslay vs serranías fc \nDomingo 27 de abril | 11:00 hrs\nCancha: Ave Fénix",
+        description: "Nuestros mini cracks salen a la cancha a dejarlo todo.\n\n¡Vení a acompañarlos, alentá con fuerza y disfrutá del futuro del fútbol!\nNo faltes, que cada aplauso cuenta.",
+        img: "/assets/images/noticias/peque27abril.jpeg",
+        date: "22 de Abril del 2025",
+        priority: 2,
+        tags: []
+    },   
 
 ];
 news.reverse();
