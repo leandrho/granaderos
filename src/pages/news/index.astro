@@ -10,7 +10,7 @@ import MainLayout from "../../layouts/MainLayout.astro"
             {
                 news.map((n)=>(
                     <div class="card">
-                        <NewCard title={n.title} description={n.description} img={n.img} id={n.id} date={n.date}/>
+                        <NewCard title={n.title} description={n.description} img={n.img[0]} id={n.id} date={n.date}/>
                     </div>
                 ))
             }

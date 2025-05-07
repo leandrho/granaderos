@@ -24,9 +24,7 @@ const { newo }  = Astro.props;
     
             </div>
             <div class="content-middle">
-                <figure class="pic">
-                    <img src={newo.img} alt="news image">
-                </figure>
+                { newo.img.map( (i) =>  <figure class="pic"><img src={i} alt="news image"></figure> ) }
             </div>
             <div class="content-bottom">
                 <p class="description">{newo.description.split('\n').map((line) => (
@@ -72,6 +70,7 @@ const { newo }  = Astro.props;
     .pic{
         width: 800px;
         height: 600px;
+        margin-block: 1rem;
         max-height: 700px;
         display: flex;
         justify-content: flex-start;
