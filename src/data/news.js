@@ -99,6 +99,26 @@ export const news = [
         priority: 1,
         tags: []
     },
+    { 
+        id: 15,
+        title: "Granaderos de Koslay visita a River!",
+        brief: "Este finde vamos de visitantes 💪⚽",
+        description: "Nos toca jugar en el predio de River, ubicado sobre Ruta 3, al lado de la Feria Rural de San Luis.\n\n¡Los esperamos a todos para alentar a nuestros pequeños jugadores!\n¡Vamos Granaderos! 🔵⚪🔵",
+        img: ["/assets/images/noticias/gvsr-180525.jpeg"],
+        date: "13 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 16,
+        title: "📣 ¡Este finde hay partidazo en Koslay! ⚽🔥",
+        brief: "Granaderos de Koslay 🟢⚪ categoría 2010 recibe a San Martín en un encuentro que promete ser un espectáculo imperdible.",
+        description: "Nuestros chicos están listos para dejarlo todo en la cancha y defender los colores con orgullo. 💪\n\n🎉 ¡Vamos Granaderos!\n🗓️ ¡Los esperamos para alentar con toda la fuerza a nuestros jugadores!\n👊 ¡Juntos somos más fuertes!",
+        img: ["/assets/images/noticias/gvssm-180525.jpeg"],
+        date: "13 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 ];
 news.reverse();
