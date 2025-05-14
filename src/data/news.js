@@ -96,7 +96,7 @@ export const news = [
         description: "Aca tenes el detalle de todos los partidos de las distintas categorias.\n\n¡A dejar el alma en la cancha!\n¡Vamos Granaderos!",
         img: ["/assets/images/noticias/20250507-1.jpeg", "/assets/images/noticias/20250507-2.jpeg", "/assets/images/noticias/20250507-3.jpeg", "/assets/images/noticias/20250507-4.jpeg"],
         date: "7 de Mayo del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -106,7 +106,7 @@ export const news = [
         description: "Nos toca jugar en el predio de River, ubicado sobre Ruta 3, al lado de la Feria Rural de San Luis.\n\n¡Los esperamos a todos para alentar a nuestros pequeños jugadores!\n¡Vamos Granaderos! 🔵⚪🔵",
         img: ["/assets/images/noticias/gvsr-180525.jpeg"],
         date: "13 de Mayo del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
     { 
@@ -135,6 +135,16 @@ export const news = [
         brief: "¡Este fin de semana vivimos otra edición del clásico que nos llena de pasión. Vamos Granaderos, a dejar todo en la cancha por esta camiseta que tanto amamos. 💪❤️💙",
         description: "Jugamos con el corazón, luchamos con el alma, y nunca dejamos de disfrutar este hermoso deporte.\n\n¡Vamos Granaderos con todo! 💪🔥\n🎽 ¡Te esperamos para alentar como siempre! ¡Con todo, Granaderos! 🚩\n¡Vamos!",
         img: ["/assets/images/noticias/gvsch-180525.jpeg"],
+        date: "13 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 19,
+        title: "🎉 ¡Llegó la hora! ⚽️ Las nenas también juegan y lo hacen con todo 💪",
+        brief: "🔥 Granaderos Sub 14 Femenino recibe a CAI en un partido que promete pura emoción.",
+        description: "📈 Granaderos necesita sumar para seguir trepando en la tabla del Torneo Apertura.\n\n💙 ¡Este finde jugamos todos juntos! ¡Vamos, Granaderos! 💙",
+        img: ["/assets/images/noticias/gvscai-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
         tags: []
