@@ -124,7 +124,17 @@ export const news = [
         title: "⚽️ Granaderos de Koslay - Categoría 2013 ⚔️",
         brief: "¡Este fin de semana recibimos al Club Defensores del Oeste!",
         description: "Nuestros jóvenes guerreros están listos para dejarlo todo en la cancha.\n\n¡Vamos Granaderos con todo! 💪🔥\nLos esperamos para alentar con fuerza y corazón.\n¡El aliento de la hinchada hace la diferencia! 📣💚",
-        img: ["/assets/images/noticias/gvsd-180525.jpeg"],
+        img: ["/assets/images/noticias/gvsc-180525.jpeg"],
+        date: "13 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 18,
+        title: "🔥¡Granaderos de Koslay 2008 visita al Club Chorrillo en un nuevo clásico de nuestra localidad!🔥",
+        brief: "¡Este fin de semana vivimos otra edición del clásico que nos llena de pasión. Vamos Granaderos, a dejar todo en la cancha por esta camiseta que tanto amamos. 💪❤️💙",
+        description: "Jugamos con el corazón, luchamos con el alma, y nunca dejamos de disfrutar este hermoso deporte.\n\n¡Vamos Granaderos con todo! 💪🔥\n🎽 ¡Te esperamos para alentar como siempre! ¡Con todo, Granaderos! 🚩\n¡Vamos!",
+        img: ["/assets/images/noticias/gvsch-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
         tags: []
