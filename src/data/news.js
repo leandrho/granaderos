@@ -179,6 +179,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 23,
+        title: "¡Este sábado 24 de mayo, Granaderos 2010 viaja a La Calera! ⚽",
+        brief: "Nuestro equipo disputará una nueva fecha del Torneo Apertura y necesita todo el apoyo posible. 💪🔥",
+        description: "🗓 Fecha: Sábado 24 de mayo\n\n📍 Lugar: La Calera\n🏆 Torneo: Apertura 2025\n\n¡Los esperamos a todos para alentar con fuerza!\n¡Vamos Granadereros !",
+        img: ["/assets/images/noticias/2025-05-20-4.jpeg"],
+        date: "20 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 ];
