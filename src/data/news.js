@@ -174,7 +174,7 @@ export const news = [
         title: "¡Duelo de Titanes en El Ave Fénix! ⚔️ 2015 recibe a Olimpo",
         brief: "La categoría 2015 de Granaderos recibe a Olimpo en un partido que promete ser intenso y aguerrido.",
         description: "Este domingo 25 de mayo, nuestras Granaderas se enfrentan al Club CAI en un partido que promete mucha garra y fútbol del bueno.\n\n📅 Domingo 25 de mayo\n🕚 17:00 hs\n📍 Cancha: El Ave Fénix\n\n¡Vení a alentarnos y viví el fútbol con pasión! 💙⚽",
-        img: ["/assets/images/noticias/2025-05-20-2.jpeg"],
+        img: ["/assets/images/noticias/2025-05-20-3.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
         tags: []
