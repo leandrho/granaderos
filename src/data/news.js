@@ -159,6 +159,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 21,
+        title: "⚽ ¡Las chicas también juegan de local! Nuestras Granaderas se enfrentan al Club CAI",
+        brief: "🔥 Granaderos Sub 14 Femenino recibe a CAI en un partido que promete pura emoción.",
+        description: "Este domingo 25 de mayo, nuestras Granaderas se enfrentan al Club CAI en un partido que promete mucha garra y fútbol del bueno.\n\n📍 Domingo 25 de mayo Cancha:  Ave Fénix\n🕧 12:30 hs\n📍 Cancha: El Ave Fénix\n\n🎉 ¡No te lo pierdas! Necesitamos tu aliento desde la tribuna. ¡Te esperamos!",
+        img: ["/assets/images/noticias/2025-05-20-2.jpeg"],
+        date: "20 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 ];
