@@ -106,7 +106,7 @@ export const news = [
         description: "Nos toca jugar en el predio de River, ubicado sobre Ruta 3, al lado de la Feria Rural de San Luis.\n\n¡Los esperamos a todos para alentar a nuestros pequeños jugadores!\n¡Vamos Granaderos! 🔵⚪🔵",
         img: ["/assets/images/noticias/gvsr-180525.jpeg"],
         date: "13 de Mayo del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -156,7 +156,7 @@ export const news = [
         description: "La categoría 2008 de Granaderos recibe a Búfalo de La Punta en un duelo que promete emoción y buen fútbol.\n\n📍 Domingo 25 de mayo Cancha:  Ave Fénix\n🕒  9:30 No te lo pierdas, vení a alentarnos!\n¡Tu apoyo hace la diferencia! 💪⚽",
         img: ["/assets/images/noticias/2025-05-20-1.jpeg"],
         date: "20 de Mayo del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
     { 
@@ -164,6 +164,16 @@ export const news = [
         title: "⚽ ¡Las chicas también juegan de local! Nuestras Granaderas se enfrentan al Club CAI",
         brief: "🔥 Granaderos Sub 14 Femenino recibe a CAI en un partido que promete pura emoción.",
         description: "Este domingo 25 de mayo, nuestras Granaderas se enfrentan al Club CAI en un partido que promete mucha garra y fútbol del bueno.\n\n📍 Domingo 25 de mayo Cancha:  Ave Fénix\n🕧 12:30 hs\n📍 Cancha: El Ave Fénix\n\n🎉 ¡No te lo pierdas! Necesitamos tu aliento desde la tribuna. ¡Te esperamos!",
+        img: ["/assets/images/noticias/2025-05-20-2.jpeg"],
+        date: "20 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 22,
+        title: "¡Duelo de Titanes en El Ave Fénix! ⚔️ 2015 recibe a Olimpo",
+        brief: "La categoría 2015 de Granaderos recibe a Olimpo en un partido que promete ser intenso y aguerrido.",
+        description: "Este domingo 25 de mayo, nuestras Granaderas se enfrentan al Club CAI en un partido que promete mucha garra y fútbol del bueno.\n\n📅 Domingo 25 de mayo\n🕚 17:00 hs\n📍 Cancha: El Ave Fénix\n\n¡Vení a alentarnos y viví el fútbol con pasión! 💙⚽",
         img: ["/assets/images/noticias/2025-05-20-2.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
