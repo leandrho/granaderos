@@ -189,6 +189,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 24,
+        title: "¡Este domingo categoría 2013 se enfrenta a Eva Perón! ⚽",
+        brief: "Este domingo 25 de mayo, la categoría 2013 se enfrenta a Eva Perón en la cancha de Sol de Mayo.",
+        description: "🕛 Horario: 12:15 hs\n\n¡Los esperamos a todos para alentar con fuerza!\n¡Vamos Granadereros !",
+        img: ["/assets/images/noticias/2025-05-20-5.jpeg"],
+        date: "21 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 ];
