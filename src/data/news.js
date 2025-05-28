@@ -219,6 +219,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 27,
+        title: "🔵 ¡Granaderos de 2010 te invitan! 🔵",
+        brief: "🏃‍♂️ Este sábado 10:30 horas,  granaderos visita a EFI Junior. Un evento lleno de energía y emoción ",
+        description: "¡Te esperamos !!\n\n📍 Cancha del Ave Fénix\n📅 Fecha: Sábado\n🕥 Hora: 10:30 AM\n📍 Ubicación: EFI Junior",
+        img: ["/assets/images/noticias/2025-05-28-2.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
