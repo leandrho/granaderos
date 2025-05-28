@@ -259,6 +259,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 31,
+        title: "¡Atención, Reprogramación 2015 vs River Plate🚨",
+        brief: "📅 El partido se jugara en River el Martes 3 de Junio. ¡Tu apoyo hace la diferencia! 💪⚽",
+        description: "🔥 ¡No podés faltar! Vení a alentar a nuestros chicos en la cancha y ser parte del espectáculo. ¡Juntos, más fuertes que nunca! 💪🏼🔴",
+        img: ["/assets/images/noticias/2025-05-28-6.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 ];
