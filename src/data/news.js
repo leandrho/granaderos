@@ -199,6 +199,27 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 25,
+        title: "¡Este sabado los peques y 2016 tienen encuentro! ⚽",
+        brief: "Encuentro promocional 2016 y los peques en cancha de Aseba 💪🔥",
+        description: "🗓 Fecha: Sábado 24 de mayo\n🕛 Horario: 15:00 hs a 16:30 hs\n¡Vamos Granadereros!",
+        img: ["/assets/images/noticias/2025-05-20-6.jpeg"],
+        date: "21 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 26,
+        title: "⚽ ¡Este domingo es día de batalla! ⚽🔥",
+        brief: "Granaderos 2008 se enfrenta a Víctoria en un partidazo que no te puedes perder.",
+        description: "💥 Vamos con todo por la victoria y necesitamos tu apoyo en la tribuna 💪💙\n📍 Cancha del Ave Fénix\n🗓️ Domingo 1 de junio\n🕤 9:30 a.m.\n\n🎉 ¡Ven con tu camiseta, tu voz y tus ganas de alentar!",
+        img: ["/assets/images/noticias/2025-05-28-1.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
+
 
 
 ];
