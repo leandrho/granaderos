@@ -229,6 +229,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 28,
+        title: "⚽ ¡Granaderos Sub 14 Femenino en acción! ⚽",
+        brief: "Este sábado 31 de mayo a las 12:30 PM, nuestras chicas del Sub 14 Femenino de Granaderos se enfrentan a River Plate.",
+        description: "¡Un partido imperdible que no puedes dejar de ver!\n\n🔥 ¡Vamos a apoyar a nuestras jugadoras! 💪\n\n📅 Fecha: Sábado 31 de mayo\n🕥 Hora: 12:30 PM\n📍 Ubicación:  River Plate\n\n¡La emoción está asegurada! 🏅 ¡Nos vemos en la cancha!",
+        img: ["/assets/images/noticias/2025-05-28-3.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
