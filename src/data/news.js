@@ -239,6 +239,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 29,
+        title: "🔥 ¡Partido emocionante de Granaderos 2013! 🔥",
+        brief: "Este sábado, nuestros Granaderos 2013 juegan de local y recibimos a San Martín",
+        description: "¡Este sábado, nuestros Granaderos 2013 juegan de local y recibimos a San Martín, el equipo puntero de la tabla. ¡Promete ser un partido electrizante que no te podés perder!\n\n⚽ Fecha: Domingo 1 de junio\n🕥 Hora: 11:00\n📍 Ubicación: cancha ave fénix \n\n🔵 ¡Vamos Granaderos, a dejar todo en la cancha! 💪",
+        img: ["/assets/images/noticias/2025-05-28-4.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
