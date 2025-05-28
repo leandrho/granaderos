@@ -156,7 +156,7 @@ export const news = [
         description: "La categoría 2008 de Granaderos recibe a Búfalo de La Punta en un duelo que promete emoción y buen fútbol.\n\n📍 Domingo 25 de mayo Cancha:  Ave Fénix\n🕒  9:30 No te lo pierdas, vení a alentarnos!\n¡Tu apoyo hace la diferencia! 💪⚽",
         img: ["/assets/images/noticias/2025-05-20-1.jpeg"],
         date: "20 de Mayo del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -266,7 +266,7 @@ export const news = [
         description: "🔥 ¡No podés faltar! Vení a alentar a nuestros chicos en la cancha y ser parte del espectáculo. ¡Juntos, más fuertes que nunca! 💪🏼🔴",
         img: ["/assets/images/noticias/2025-05-28-6.jpeg"],
         date: "28 de Mayo del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
 
