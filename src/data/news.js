@@ -249,7 +249,16 @@ export const news = [
         priority: 2,
         tags: []
     },
-
+    { 
+        id: 30,
+        title: "¡Atención, hinchas de Los Granaderitos! 🚨",
+        brief: "📅 Este domingo 1 de junio, a las 12:30, ¡Los Granaderitos juegan de LOCAL en el Ave Fénix! ⚽️🔥",
+        description: "🔥 ¡No podés faltar! Vení a alentar a nuestros chicos en la cancha y ser parte del espectáculo. ¡Juntos, más fuertes que nunca! 💪🏼🔴",
+        img: ["/assets/images/noticias/2025-05-28-5.jpeg"],
+        date: "28 de Mayo del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 ];
