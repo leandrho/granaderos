@@ -284,8 +284,18 @@ export const news = [
         title: "🔥⚽ Clásico en Ave Fénix ⚽🔥",
         brief: "Granaderos 2010 🆚 El Chorrillo",
         description: "¡Otro capítulo de este clásico vibrante!\n¡Un encuentro que promete emoción, entrega y mucho fútbol! ⚽❤️\nLos chicos de Granaderos 2010 reciben a El Chorrillo en un partido que promete ser emocionante de principio a fin 💥\n📅 Fecha: domingo 8\n🕒 Hora: 11:30\n📍 Cancha Ave Fénix\n\n💚 ¡Acompañá al equipo y viví el fútbol con pasión!\n#VamosGranaderos #FútbolInfantil #ClásicoConHistoria",
-        img: ["/assets/images/noticias/2025-06-06-1.jpeg"],
+        img: ["/assets/images/noticias/2025-06-06-2.jpeg"],
         date: "5 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 34,
+        title: "🎉⚽ ¡Partidazo Confirmado! ⚽🎉",
+        brief: "Granaderos 2008 recibe al Club El Trapiche. ¡Promete ser un gran encuentro de fútbol juvenil!",
+        description: "📅 Fecha: domingo 8\n🕒 Hora: 10:00\n📍 Cancha Ave Fénix\n\n💪 Vení a alentar a tu equipo y disfrutá del mejor fútbol juvenil.\n¡No te lo pierdas!",
+        img: ["/assets/images/noticias/2025-06-06-3.jpeg"],
+        date: "6 de Junio del 2025",
         priority: 2,
         tags: []
     },
