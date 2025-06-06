@@ -266,7 +266,17 @@ export const news = [
         description: "🔥 ¡No podés faltar! Vení a alentar a nuestros chicos en la cancha y ser parte del espectáculo. ¡Juntos, más fuertes que nunca! 💪🏼🔴",
         img: ["/assets/images/noticias/2025-05-28-6.jpeg"],
         date: "28 de Mayo del 2025",
-        priority: 1,
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 32,
+        title: "🎉⚽ ¡Los Peques de Granaderos van por más! ⚽🎉",
+        brief: "Este finde se juega un partidazo en La Punta: 🔥 Búfalo de La Punta 🆚 Granaderos 🔥",
+        description: "Nuestros peques viajan con todo en busca de otro resultado favorable 💪\n¡Un encuentro que promete emoción, entrega y mucho fútbol! ⚽❤️\n\n📍 Lugar: polideportivo la punta\n📅 Fecha: domingo 8\n🕒 Hora: 11:00\n\n💥 ¡No te lo pierdas! Vamos Granaderos 💚⚔️",
+        img: ["/assets/images/noticias/2025-06-06-1.jpeg"],
+        date: "5 de Junio del 2025",
+        priority: 2,
         tags: []
     },
 
