@@ -329,6 +329,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 38,
+        title: "📢 ¡Los Granaderos 2015 vuelven a la cancha!",
+        brief: "Después de un gran triunfo, se nos viene un nuevo desafío: enfrentamos a Eva FC 💪⚽",
+        description: "Los esperamos este domingo 22 a las 12:30 hs en la cancha de Sol de Mayo para alentar a nuestros peques, que dejarán todo en la cancha para traerse esos 3 puntos.\n\n¡Vamos Granaderos! 🔵⚪",
+        img: ["/assets/images/noticias/2025-06-18-03.jpeg"],
+        date: "18 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
