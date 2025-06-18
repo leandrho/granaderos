@@ -319,6 +319,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 37,
+        title: "🎀 Fútbol Femenino - Granaderos Sub 14 🎀",
+        brief: "¡Las nenas de Granaderos somos locales!",
+        description: "Recibimos a Fusión en un nuevo partido lleno de garra y pasión.\n¡Vení a vernos jugar y alentanos con toda tu energía!\n💪⚽ ¡Vamos las chicas, vamos Granaderos\n\n📅 Domingo 22 de junio\n🕚 11:00 hs\n📍 Cancha Ave Fénix",
+        img: ["/assets/images/noticias/2025-06-18-02.jpeg"],
+        date: "18 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
