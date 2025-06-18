@@ -296,7 +296,7 @@ export const news = [
         description: "📅 Fecha: domingo 8\n🕒 Hora: 10:00\n📍 Cancha Ave Fénix\n\n💪 Vení a alentar a tu equipo y disfrutá del mejor fútbol juvenil.\n¡No te lo pierdas!",
         img: ["/assets/images/noticias/2025-06-06-3.jpeg"],
         date: "6 de Junio del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -316,7 +316,7 @@ export const news = [
         description: "💥 Un verdadero clásico de Koslay \n\n📍 Los esperamos para alentar con toda la pasión.\n¡Vamos Granaderos! 💙⚽",
         img: ["/assets/images/noticias/2025-06-18-01.jpeg"],
         date: "18 de Junio del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
     { 
