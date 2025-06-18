@@ -309,6 +309,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 36,
+        title: "📣 ¡Clásico en Koslay! ⚽🔥",
+        brief: "La Categoría 2008 de Granaderos visita a Koslay Jr este domingo 22 a las 10:00 hs en un partido que promete pura emoción.",
+        description: "💥 Un verdadero clásico de Koslay \n\n📍 Los esperamos para alentar con toda la pasión.\n¡Vamos Granaderos! 💙⚽",
+        img: ["/assets/images/noticias/2025-06-18-01.jpeg"],
+        date: "18 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
