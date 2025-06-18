@@ -339,6 +339,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 39,
+        title: "📣 ¡La 2013 de Granaderos sigue su camino!",
+        brief: "Este sábado 21 a las 🕦 11:30 hs, nuestros peques viajan a Victoria para enfrentar a un rival difícil 💥⚽",
+        description: "Será un partido intenso y lleno de emoción.\n\n¡Vamos Granaderos! 🔵⚪ 💪 #VamosGranaderos",
+        img: ["/assets/images/noticias/2025-06-18-04.jpeg"],
+        date: "18 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
