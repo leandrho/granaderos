@@ -316,7 +316,7 @@ export const news = [
         description: "💥 Un verdadero clásico de Koslay \n\n📍 Los esperamos para alentar con toda la pasión.\n¡Vamos Granaderos! 💙⚽",
         img: ["/assets/images/noticias/2025-06-18-01.jpeg"],
         date: "18 de Junio del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -346,7 +346,7 @@ export const news = [
         description: "Será un partido intenso y lleno de emoción.\n\n¡Vamos Granaderos! 🔵⚪ 💪 #VamosGranaderos",
         img: ["/assets/images/noticias/2025-06-18-04.jpeg"],
         date: "18 de Junio del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
 
