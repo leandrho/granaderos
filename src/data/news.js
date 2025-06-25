@@ -389,6 +389,27 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 44,
+        title: "La 2010 también entra en acción! ⚽🔥",
+        brief: "Este sábado 28, la 2010 tiene su partido en la cancha de River plate. ¡No será fácil, pero con tu apoyo, todo es posible! 🙌",
+        description: "¡Vamos, chicos! A demostrar todo lo que tenemos en la cancha. 💪🔵🔴\n\n#Vamos2008 #PartidoDifícil #AporLaVictoria",
+        img: ["/assets/images/noticias/2025-06-25-05.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
+    { 
+        id: 45,
+        title: "¡Las nenas también juegan! ⚽✨",
+        brief: "Este domingo 29, las Sub 14 tienen un partido clave en la cancha de victoria 17:00 hrs ",
+        description: "¡ ¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
+        img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
+
 
 
 
