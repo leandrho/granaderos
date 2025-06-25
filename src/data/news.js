@@ -349,6 +349,16 @@ export const news = [
         priority: 1,
         tags: []
     },
+    { 
+        id: 40,
+        title: "🎉⚽ ¡Apoya a nuestros pequeños campeones! ⚽🎉",
+        brief: "Este domingo 29 de junio a las 11:00 hrs, nuestra escuelita categoría 2016 se enfrenta al Club Victoria en un emocionante partido lleno de talento y pasión.",
+        description: "📍 Cancha: Ave Fénix\n🕚 Hora: 11:00 de la mañana\n\n¡Ven con tu familia y amigos a alentar a nuestros peques!\n💪⚽ ¡Tu apoyo hace la diferencia!\n\n#FútbolInfantil #Escuelita2016 #VamosPeques #PasiónPorElDeporte",
+        img: ["/assets/images/noticias/2025-06-25-01.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
