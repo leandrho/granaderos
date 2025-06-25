@@ -346,7 +346,7 @@ export const news = [
         description: "Será un partido intenso y lleno de emoción.\n\n¡Vamos Granaderos! 🔵⚪ 💪 #VamosGranaderos",
         img: ["/assets/images/noticias/2025-06-18-04.jpeg"],
         date: "18 de Junio del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -356,7 +356,7 @@ export const news = [
         description: "📍 Cancha: Ave Fénix\n🕚 Hora: 11:00 de la mañana\n\n¡Ven con tu familia y amigos a alentar a nuestros peques!\n💪⚽ ¡Tu apoyo hace la diferencia!\n\n#FútbolInfantil #Escuelita2016 #VamosPeques #PasiónPorElDeporte",
         img: ["/assets/images/noticias/2025-06-25-01.jpeg"],
         date: "25 de Junio del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
 
