@@ -379,6 +379,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 43,
+        title: "Partido clave para la 2008! ⚽💥",
+        brief: "Este sábado 28, la 2008 se enfrenta a un rival difícil en la cancha de EFI. 🏟️ A las 10:00 hrs",
+        description: "Sabemos que será un desafío, pero con tu aliento, ¡todo es posible! 🙌\n\n¡Vamos con todo, equipo! A dejar todo en la cancha. 💪🔵🔴\n#Vamos2008 #PartidoDifícil #AporLaVictoria",
+        img: ["/assets/images/noticias/2025-06-25-04.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
