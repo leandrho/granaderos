@@ -369,6 +369,16 @@ export const news = [
         priority: 2,
         tags: []
     },
+    { 
+        id: 42,
+        title: "Se viene el clásico! ⚽🔥",
+        brief: "Este domingo 29, la 2013 se enfrenta en la cancha del Chorrillo. ¡Es hora de demostrar todo el apoyo!",
+        description: "¡Vamos que se puede, equipo! 💪🎉\n\nNo faltes, necesitamos toda la energía para traer la victoria.\n🔵🔴 #Clásico2013 #VamosPorTodo",
+        img: ["/assets/images/noticias/2025-06-25-03.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
 
 
 
