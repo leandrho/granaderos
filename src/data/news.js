@@ -359,6 +359,17 @@ export const news = [
         priority: 1,
         tags: []
     },
+    { 
+        id: 41,
+        title: "Este domingo 29  no te lo podés perder! ",
+        brief: "Granaderos 2015 juega  a las 12:00 hs. en el Estadio Ave Fénix 🦅. ¡Somos locales y necesitamos tu aliento!",
+        description: "Vení a apoyar a los más chicos, ¡que juntos podemos hacer la diferencia! 💪🎉\n\n¡Te esperamos para alentar a los peques!\n🔵🔴 #Granaderos2015 #SomosLocales",
+        img: ["/assets/images/noticias/2025-06-25-02.jpeg"],
+        date: "25 de Junio del 2025",
+        priority: 2,
+        tags: []
+    },
+
 
 
 
