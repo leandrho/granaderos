@@ -356,7 +356,7 @@ export const news = [
         description: "📍 Cancha: Ave Fénix\n🕚 Hora: 11:00 de la mañana\n\n¡Ven con tu familia y amigos a alentar a nuestros peques!\n💪⚽ ¡Tu apoyo hace la diferencia!\n\n#FútbolInfantil #Escuelita2016 #VamosPeques #PasiónPorElDeporte",
         img: ["/assets/images/noticias/2025-06-25-01.jpeg"],
         date: "25 de Junio del 2025",
-        priority: 1,
+        priority: 2,
         tags: []
     },
     { 
@@ -396,7 +396,7 @@ export const news = [
         description: "¡Vamos, chicos! A demostrar todo lo que tenemos en la cancha. 💪🔵🔴\n\n#Vamos2008 #PartidoDifícil #AporLaVictoria",
         img: ["/assets/images/noticias/2025-06-25-05.jpeg"],
         date: "25 de Junio del 2025",
-        priority: 2,
+        priority: 1,
         tags: []
     },
     { 
