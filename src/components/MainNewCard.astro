@@ -1,6 +1,6 @@
 ---
 
-const { id, title, description, img, date} = Astro.props;
+const { id, title, description, img, date, links} = Astro.props;
 ---
 <article class="card-container">
     <div class="card-left">
@@ -12,6 +12,11 @@ const { id, title, description, img, date} = Astro.props;
             <p class="card-text">
                 {description}
             </p>
+            { 
+                links.map( (link :{link:string, title:string, icon:string}) => <div class="">
+                                        <a class="link-container link-link" href={link.link}  target="_blank"><img src={`/${link.icon}`} alt=""> <span class="link-titles">{link.title}</span> </a> 
+                                   </div>)                    
+            }
         </div>
         <div class="card-foot">
             <div class="card-link">
@@ -76,6 +81,26 @@ const { id, title, description, img, date} = Astro.props;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+       .link-container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+     .link-container img{
+        width: 48px;
+        height: 48px;
+        
+     }
+    .link-title{
+        color: var(--dark-blue);
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    .link-link{
+        color: #2191ff;
+        font-weight: 500;
+        font-size: 1.2rem;
     }
     @media screen and (max-width: 768px) {
    
