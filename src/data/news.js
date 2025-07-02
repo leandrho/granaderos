@@ -7,6 +7,7 @@ export const news = [
         img: ["/assets/images/noticias/crono-32025.jpeg"],
         date: "18 de Marzo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -17,6 +18,7 @@ export const news = [
         img: ["/assets/images/noticias/vsserranias32025.jpeg"],
         date: "18 de Marzo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -27,6 +29,7 @@ export const news = [
         img: ["/assets/images/noticias/femFree.jpeg"],
         date: "19 de Marzo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -37,6 +40,7 @@ export const news = [
         img: ["/assets/images/noticias/team-15-32025.jpeg"],
         date: "19 de Marzo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -47,6 +51,7 @@ export const news = [
         img: ["/assets/images/noticias/horarios-32025.jpeg"],
         date: "19 de Marzo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -57,6 +62,7 @@ export const news = [
         img: ["/assets/images/noticias/femenino27abril.jpeg"],
         date: "22 de Abril del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -67,6 +73,7 @@ export const news = [
         img: ["/assets/images/noticias/masc200827abril.jpeg"],
         date: "22 de Abril del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -77,6 +84,7 @@ export const news = [
         img: ["/assets/images/noticias/peque27abril.jpeg"],
         date: "22 de Abril del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -87,6 +95,7 @@ export const news = [
         img: ["/assets/images/noticias/masc201527abril.jpeg"],
         date: "22 de Abril del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -97,6 +106,7 @@ export const news = [
         img: ["/assets/images/noticias/20250507-1.jpeg", "/assets/images/noticias/20250507-2.jpeg", "/assets/images/noticias/20250507-3.jpeg", "/assets/images/noticias/20250507-4.jpeg"],
         date: "7 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -107,6 +117,7 @@ export const news = [
         img: ["/assets/images/noticias/gvsr-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -117,6 +128,7 @@ export const news = [
         img: ["/assets/images/noticias/gvssm-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -127,6 +139,7 @@ export const news = [
         img: ["/assets/images/noticias/gvsc-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -137,6 +150,7 @@ export const news = [
         img: ["/assets/images/noticias/gvsch-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -147,6 +161,7 @@ export const news = [
         img: ["/assets/images/noticias/gvscai-180525.jpeg"],
         date: "13 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -157,6 +172,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-1.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -167,6 +183,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-2.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -177,6 +194,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-3.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -187,6 +205,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-4.jpeg"],
         date: "20 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -197,6 +216,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-5.jpeg"],
         date: "21 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -207,6 +227,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-20-6.jpeg"],
         date: "21 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -217,6 +238,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-1.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -227,6 +249,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-2.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -237,6 +260,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-3.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -247,6 +271,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-4.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -257,6 +282,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-5.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -267,6 +293,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-05-28-6.jpeg"],
         date: "28 de Mayo del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -277,6 +304,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-06-1.jpeg"],
         date: "5 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -287,6 +315,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-06-2.jpeg"],
         date: "5 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -297,6 +326,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-06-3.jpeg"],
         date: "6 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -307,6 +337,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-06-01.jpeg","/assets/images/noticias/2025-06-06-02.jpeg","/assets/images/noticias/2025-06-06-03.jpeg"],
         date: "6 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -317,6 +348,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-18-01.jpeg"],
         date: "18 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -327,6 +359,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-18-02.jpeg"],
         date: "18 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -337,6 +370,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-18-03.jpeg"],
         date: "18 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -347,6 +381,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-18-04.jpeg"],
         date: "18 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -357,6 +392,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-25-01.jpeg"],
         date: "25 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -367,6 +403,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-25-02.jpeg"],
         date: "25 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -377,6 +414,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-25-03.jpeg"],
         date: "25 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -387,6 +425,7 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-25-04.jpeg"],
         date: "25 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -396,7 +435,8 @@ export const news = [
         description: "¡Vamos, chicos! A demostrar todo lo que tenemos en la cancha. 💪🔵🔴\n\n#Vamos2008 #PartidoDifícil #AporLaVictoria",
         img: ["/assets/images/noticias/2025-06-25-05.jpeg"],
         date: "25 de Junio del 2025",
-        priority: 1,
+        priority: 2,
+        links: [],
         tags: []
     },
     { 
@@ -407,10 +447,9 @@ export const news = [
         img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
         date: "25 de Junio del 2025",
         priority: 2,
+        links: [],
         tags: []
     },
-
-
 
 
 
