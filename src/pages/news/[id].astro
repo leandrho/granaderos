@@ -28,17 +28,23 @@ const { newo }  = Astro.props;
             </div>
             <div class="content-bottom">
                 <p class="description">{newo.description.split('\n').map((line) => (
-                    <>
+                    <a>
                       {line}
                       <br />
-                    </>
+                    </a>
                   ))}</p>
+                <br />
+                { newo.links.map( (link) =><div class="">
+                                                <a class="link-container link-link" href={link.link}  target="_blank"><img src={`/${link.icon}`} alt=""> <span class="link-titles">{link.title}</span> </a> 
+                                           </div>) }
+                                           {/* <iframe class="iframe" width="560" height="375" src="https://www.youtube.com/embed/BORRAR-OP26yCVvj9U?si=AouiqOuVLeqxWh2p?rel=0&amp;autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
             </div>
         </div>
     </section>
 </MainLayout>
 
 <style>
+
     .container{
         display: flex;
         justify-content: center;
@@ -81,6 +87,30 @@ const { newo }  = Astro.props;
         height: 100%;
         width: 100%;
         object-fit: contain;
+    }
+    .link-container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+     .link-container img{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 1rem;
+        
+     }
+    .link-title{
+        color: var(--dark-blue);
+        font-weight: bold;
+        font-size: 1.4rem;
+    }
+    .link-link{
+        color: #2191ff;
+        font-weight: 500;
+        font-size: 1.4rem;
+    }
+    .iframe{
+        width: 100%;
     }
     @media screen and (max-width: 1024px) {
         .content{
