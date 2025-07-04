@@ -456,7 +456,7 @@ export const news = [
         brief: "Este domingo 6 de julio, la categoría 2008, juegan contra Union a las 13:00 hrs",
         description: "¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n\n📍 Cancha: Unión\n🕚 Hora: 13:00",
         img: ["/assets/images/noticias/2025-07-03-01.jpeg"],
-        date: "3 de Junio del 2025",
+        date: "3 de Julio del 2025",
         priority: 2,
         links: [],
         tags: []
@@ -467,7 +467,7 @@ export const news = [
         brief: "Este domingo 6 de julio a las 17hs, las Sub 14 tienen un partido importante!! ",
         description: "¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n\n📍 Cancha: Ave Fénix\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
         img: ["/assets/images/noticias/2025-07-03-02.jpeg"],
-        date: "3 de Junio del 2025",
+        date: "3 de Julio del 2025",
         priority: 2,
         links: [],
         tags: []
@@ -478,7 +478,7 @@ export const news = [
         brief: "Este domingo 6 a las 15:00 hrs, la 2013 se enfrenta de local a Olimpo. ¡Es hora de demostrar todo el apoyo!",
         description: "¡Vamos que se puede, equipo! 💪🎉\n\nNo faltes, necesitamos toda la energía para traer la victoria.\n🔵🔴 #VamosPorTodo",
         img: ["/assets/images/noticias/2025-07-03-03.jpeg"],
-        date: "3 de Junio del 2025",
+        date: "3 de Julio del 2025",
         priority: 2,
         links: [],
         tags: []
@@ -489,7 +489,7 @@ export const news = [
         brief: "2016 vs Victoria 🔥",
         description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 12:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
         img: ["/assets/images/noticias/2025-07-03-04.jpeg"],
-        date: "3 de Junio del 2025",
+        date: "3 de Julio del 2025",
         priority: 2,
         links: [],
         tags: []
@@ -500,7 +500,7 @@ export const news = [
         brief: "2015 vs Victoria 🔥",
         description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 13:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
         img: ["/assets/images/noticias/2025-07-03-05.jpeg"],
-        date: "3 de Junio del 2025",
+        date: "3 de Julio del 2025",
         priority: 2,
         links: [],
         tags: []
