@@ -483,6 +483,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 49,
+        title: "⚽🔥¡Programación 2016 Escuelita! ⚽",
+        brief: "2016 vs Victoria 🔥",
+        description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 12:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
+        img: ["/assets/images/noticias/2025-07-03-04.jpeg"],
+        date: "3 de Junio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
     // { 
     //     id: 46,
     //     title: "¡Las nenas también juegan! ⚽✨",
