@@ -461,6 +461,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 47,
+        title: "Femenino Sub14 ⚽✨",
+        brief: "Este domingo 6 de julio a las 17hs, las Sub 14 tienen un partido importante!! ",
+        description: "¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n\n📍 Cancha: Ave Fénix\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
+        img: ["/assets/images/noticias/2025-07-03-02.jpeg"],
+        date: "3 de Junio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
     // { 
     //     id: 46,
     //     title: "¡Las nenas también juegan! ⚽✨",
