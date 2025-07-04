@@ -494,6 +494,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 50,
+        title: "⚽🔥¡Programación 2015⚽",
+        brief: "2015 vs Victoria 🔥",
+        description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 13:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
+        img: ["/assets/images/noticias/2025-07-03-05.jpeg"],
+        date: "3 de Junio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
     // { 
     //     id: 46,
     //     title: "¡Las nenas también juegan! ⚽✨",
