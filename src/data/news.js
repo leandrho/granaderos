@@ -450,6 +450,30 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 46,
+        title: "Categoria 2008 ⚽✨",
+        brief: "Este domingo 6 de julio, la categoría 2008, juegan contra Union a las 13:00 hrs",
+        description: "¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n\n📍 Cancha: Unión\n🕚 Hora: 13:00",
+        img: ["/assets/images/noticias/2025-07-03-01.jpeg"],
+        date: "3 de Junio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    // { 
+    //     id: 46,
+    //     title: "¡Las nenas también juegan! ⚽✨",
+    //     brief: "Este domingo 29, las Sub 14 tienen un partido clave en la cancha de victoria 17:00 hrs ",
+    //     description: "¡ ¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
+    //     img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
+    //     date: "25 de Junio del 2025",
+    //     priority: 1,
+    //     links: [{title: 'Seguilo en Vivo', link: 'https://www.youtube.com/@granaderosdekoslay', icon: 'youtube.svg'}],
+    //     tags: []
+    // },
+
+
 
 
 
