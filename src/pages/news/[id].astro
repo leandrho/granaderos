@@ -34,10 +34,10 @@ const { newo }  = Astro.props;
                     </a>
                   ))}</p>
                 <br />
-                { newo.links.map( (link) =><div class="">
+                { newo.links.map( (link: {title: string, link: string, icon: string}) =><div class="">
                                                 <a class="link-container link-link" href={link.link}  target="_blank"><img src={`/${link.icon}`} alt=""> <span class="link-titles">{link.title}</span> </a> 
                                            </div>) }
-                                           {/* <iframe class="iframe" width="560" height="375" src="https://www.youtube.com/embed/BORRAR-OP26yCVvj9U?si=AouiqOuVLeqxWh2p?rel=0&amp;autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+                                           <iframe class="iframe" width="560" height="375" src="https://youtube.com/@granaderosdekoslay?si=Tutm3AnqrgOpZxMP?rel=0&amp;autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </section>
