@@ -505,17 +505,17 @@ export const news = [
         links: [],
         tags: []
     },
-    // { 
-    //     id: 46,
-    //     title: "¡Las nenas también juegan! ⚽✨",
-    //     brief: "Este domingo 29, las Sub 14 tienen un partido clave en la cancha de victoria 17:00 hrs ",
-    //     description: "¡ ¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
-    //     img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
-    //     date: "25 de Junio del 2025",
-    //     priority: 1,
-    //     links: [{title: 'Seguilo en Vivo', link: 'https://www.youtube.com/@granaderosdekoslay', icon: 'youtube.svg'}],
-    //     tags: []
-    // },
+    { 
+        id: 51,
+        title: "No vamos a Mendoza 💪⚽✨",
+        brief: "Independiente Rivadavia recibe a los Granaderos de Koslay - 🚨🚨 Seguilo en Vivo 🚨🚨",
+        description: "Independiente Rivadavia recibe en el estadio Bautista Gargantini a los Granaderos de Koslay para vivir un encuentro de infantiles a todo nivel. \n\n📍 Lugar: Estadio Bautista Gargantini\n📅 Fecha: 4 de Julio\n🕒 Desde las: 14:00\n\n💥 ¡No te lo pierdas! Vamos Granaderos ⚔️",
+        img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
+        date: "3 de Julio del 2025",
+        priority: 1,
+        links: [{title: 'En Vivo', link: 'https://youtube.com/@granaderosdekoslay?si=Tutm3AnqrgOpZxMP', icon: 'youtube.svg'}],
+        tags: []
+    },
 
 
 
