@@ -510,7 +510,7 @@ export const news = [
         title: "No vamos a Mendoza 💪⚽✨",
         brief: "Independiente Rivadavia recibe a los Granaderos de Koslay - 🚨🚨 Seguilo en Vivo 🚨🚨",
         description: "Independiente Rivadavia recibe en el estadio Bautista Gargantini a los Granaderos de Koslay para vivir un encuentro de infantiles a todo nivel. \n\n📍 Lugar: Estadio Bautista Gargantini\n📅 Fecha: 4 de Julio\n🕒 Desde las: 14:00\n\n💥 ¡No te lo pierdas! Vamos Granaderos ⚔️",
-        img: ["/assets/images/noticias/2025-06-25-06.jpeg"],
+        img: ["/assets/images/noticias/mza-4-julio.jpg"],
         date: "3 de Julio del 2025",
         priority: 1,
         links: [{title: 'En Vivo', link: 'https://youtube.com/@granaderosdekoslay?si=Tutm3AnqrgOpZxMP', icon: 'youtube.svg'}],
