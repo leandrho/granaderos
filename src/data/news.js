@@ -512,11 +512,76 @@ export const news = [
         description: "Independiente Rivadavia recibe en el estadio Bautista Gargantini a los Granaderos de Koslay para vivir un encuentro de infantiles a todo nivel. \n\n📍 Lugar: Estadio Bautista Gargantini\n📅 Fecha: 4 de Julio\n🕒 Desde las: 14:00\n\n💥 ¡No te lo pierdas! Vamos Granaderos ⚔️",
         img: ["/assets/images/noticias/mza-4-julio.jpg"],
         date: "3 de Julio del 2025",
-        priority: 1,
+        priority: 2,
         links: [{title: 'En Vivo', link: 'https://youtube.com/@granaderosdekoslay?si=Tutm3AnqrgOpZxMP', icon: 'youtube.svg'}],
         tags: []
     },
-
+    { 
+        id: 52,
+        title: "📣 ¡Arranca el Clausura para la 2015!",
+        brief: "Este domingo 3 de agosto a las 13:00 hs en la cancha de Ave Fénix, nuestros peques de Granaderos 2015 comienzan una nueva ilusión.",
+        description: "💪 ¡Más que nunca necesitamos el aliento de toda la hinchada!\n🔥 Vamos Granaderos, con todo por este nuevo desafío!",
+        img: ["/assets/images/noticias/2025-07-30-01.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 53,
+        title: "📢 ¡La 2008 arranca el Torneo Clausura!",
+        brief: "Este domingo 3 de agosto a las 11:30 hs en Ave Fénix, se juega el primer partido del Clausura y nuestros chicos están listos para dejarlo todo en la cancha",
+        description: "💙 Te esperamos para alentar juntos!\n🔥 ¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-07-30-02.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 54,
+        title: "🎉 ¡Arranca el Torneo Clausura y Granaderos dice presente!",
+        brief: "La Sub 19 se prepara para su primer partido de liga, y necesitamos el aliento de todos",
+        description: "📅 Domingo 3 de agosto\n🕙 10:00 hs\n📍 Cancha Ave Fénix\n\n💪 ¡Acompañanos a alentar a los chicos!\n🔵⚪ ¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-07-30-03.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 55,
+        title: "🎉 ¡Arranca el Torneo Clausura y Granaderos dice presente!",
+        brief: "La 2013  se prepara para su primer partido de liga, y necesitamos el aliento de todos vamos granaderos con todo !!!!",
+        description: "📅 Sábado 2  de agosto\n🕙 10:00 hs\n📍 Cancha vial provincial\n\n💪 ¡Acompañanos a alentar a los chicos!\n🔵⚪ ¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-07-30-04.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 56,
+        title: "🎉 ¡Arranca el Torneo Clausura y 2014  ",
+        brief: "2014 se prepara para su primer partido de liga, y necesitamos el aliento de todos vamos con los peques ",
+        description: "📅 Domingo 3 de agosto\n🕙 10:00 hs\n📍 Cancha River plate ruta 3\n\n💪 ¡Acompañanos a alentar a los chicos!🔵⚪ ¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-07-30-05.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 1,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 57,
+        title: "🎉 ¡Arranca el Torneo Clausura y Granaderos dice presente!",
+        brief: "La categoría 2010 se prepara para visitar al club Víctoria  necesitamos el aliento de todos.",
+        description: "📅 Sábado 2  de agosto\n🕙 9:30 hs\n📍 Cancha victoria barrio CGT\n\n💪 ¡Acompañanos a alentar a los chicos!🔵⚪ ¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-07-30-06.jpeg"],
+        date: "30 de Julio del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 
