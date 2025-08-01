@@ -1,27 +1,5 @@
 export const news = [
     { 
-        id: 8,
-        title: "La categoría 2015 dice presente en el Apertura",
-        brief: "Semillero de campeones",
-        description: "Nuestros pequeños gigantes de la categoría 2015 están dejando todo en la cancha. Con pasión y garra, estos futuros cracks están demostrando su talento en el Torneo Apertura 2025.\n \n¡Agradecemos a los padres, familiares y entrenadores por su apoyo incondicional!\n \n¡Vení a alentar a nuestros pequeños gigantes! ¡Te esperamos en la cancha!",
-        img: ["/assets/images/noticias/team-15-32025.jpeg"],
-        date: "19 de Marzo del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 9,
-        title: "Horarios de entrenamiento actualizados",
-        brief: "¡Entrená con nosotros! Consultá los horarios de cada categoría",
-        description: "En la imagen, encontrarás los días y horarios de entrenamiento.\n\n¡Te esperamos en la cancha para vivir la pasión del fútbol!",
-        img: ["/assets/images/noticias/horarios-32025.jpeg"],
-        date: "19 de Marzo del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
         id: 10,
         title: "¡Sub 14 femenino!",
         brief: "Este domingo 27 de abril se vive un gran duelo en la cancha de Ave Fénix.",
