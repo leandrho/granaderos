@@ -1,38 +1,5 @@
 export const news = [
     { 
-        id: 5,
-        title: "¡Se viene la 2ª fecha del Torneo Apertura! ⚽ ",
-        brief: "Consulta el cronograma completo",
-        description: "Este fin de semana, el club se viste de gala para recibir la segunda fecha del Torneo Apertura.\n¡Prepárate para vivir jornadas llenas de pasión y fútbol! \n¡No te pierdas ningún partido! Ven a disfrutar de un fin de semana a puro fútbol en familia.",
-        img: ["/assets/images/noticias/crono-32025.jpeg"],
-        date: "18 de Marzo del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 6,
-        title: "En esta fecha visitamos a Serranías F.C ⚽ ",
-        brief: "¡No te pierdas este partidazo! ¡Vení a alentar al club!",
-        description: "En la segunda fecha del Torneo Apertura, nuestro equipo visitará a Serranías F.C. ¡Vamos a alentar al club!",
-        img: ["/assets/images/noticias/vsserranias32025.jpeg"],
-        date: "18 de Marzo del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 7,
-        title: "¡Tu pasión, tu equipo! Sumate al femenino de Granaderos de Koslay",
-        brief: "¡No te pierdas esta oportunidad! ¡Inscribite ya!",
-        description: "¿Tenés entre 12 y 16 años y te apasiona el fútbol? ¡Esta es tu oportunidad!\nVení a formar parte del equipo femenino de Granadas y desarrollá todo tu talento.",
-        img: ["/assets/images/noticias/femFree.jpeg"],
-        date: "19 de Marzo del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
         id: 8,
         title: "La categoría 2015 dice presente en el Apertura",
         brief: "Semillero de campeones",
