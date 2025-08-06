@@ -527,6 +527,61 @@ export const news = [
         links: [],
         tags: []
     },
+     { 
+        id: 58,
+        title: "¡Segunda Fecha en Marcha!",
+        brief: "La 2008 de Granaderos visita al Club El Trapiche en busca de otra gran actuación 💪⚽",
+        description: "🔥 Vamos por los 3 puntos y tu aliento hace la diferencia 🔥\n\n📍 Cancha de El Trapiche\n📅 Domingo 10 de agosto\n🕙 10:00 HRS\n\n💚 ¡Acompañanos y alentá a nuestros chicos!\n#VamosGranaderos #FútbolJuvenil #Granaderos2008 #ElTrapicheVsGranaderos #PasiónPorElFútbol",
+        img: ["/assets/images/noticias/2025-08-06-01.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 59,
+        title: "¡Este domingo se juega en casa!",
+        brief: "La categoría 2010 de Granaderos tiene la localía y va con todo en la segunda fecha frente a Serranías FC",
+        description: "⚽ Promete ser un partido legendario y no puede faltar tu aliento desde la tribuna.\n🔥 ¡Necesitamos tu apoyo!\n\n📍Cancha Ave Fénix\n📅 Domingo 10 de agosto\n🕥 10:30 hs\n\n¡Vamos Granaderos! 💪",
+        img: ["/assets/images/noticias/2025-08-06-02.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 60,
+        title: "La 2013 va con todo!🔥",
+        brief: "Este domingo 10 de agosto, los chicos de la categoría 2013 se enfrentan a un duro rival: Olimpo.",
+        description: "🕛 12:00 hrs\n📍 Cancha Ave Fénix\n\n¡Te esperamos para alentar a nuestros pequeños guerreros! 💪⚽\n¡Vamos Granaderos!",
+        img: ["/assets/images/noticias/2025-08-06-03.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 61,
+        title: "⚽ ¡La 2014 en acción! ⚽",
+        brief: "Este domingo 10 de agosto, la categoría 2014 se mide frente a Lince en un nuevo desafío.",
+        description: "🕜 13:30 hrs\n📍 Cancha Ave Fénix\n\n¡Acompañanos a alentar a nuestros chicos que van por todo!\n¡Vamos Granaderos! 🔵⚪",
+        img: ["/assets/images/noticias/2025-08-06-04.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 62,
+        title: "💥 La 2015 quiere seguir creciendo 💥",
+        brief: "Este domingo 10 de agosto, nuestros peques de la categoría 2015 se enfrentan a Olimpo en un partidazo lleno de emoción.",
+        description: "🕒 15:00 hrs\n📍 Cancha Ave Fénix\n\n¡Vení a alentar a los más chiquitos!\n¡Vamos Granaderos! 💙⚽",
+        img: ["/assets/images/noticias/2025-08-06-04.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 
