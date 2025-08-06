@@ -576,12 +576,35 @@ export const news = [
         title: "💥 La 2015 quiere seguir creciendo 💥",
         brief: "Este domingo 10 de agosto, nuestros peques de la categoría 2015 se enfrentan a Olimpo en un partidazo lleno de emoción.",
         description: "🕒 15:00 hrs\n📍 Cancha Ave Fénix\n\n¡Vení a alentar a los más chiquitos!\n¡Vamos Granaderos! 💙⚽",
-        img: ["/assets/images/noticias/2025-08-06-04.jpeg"],
+        img: ["/assets/images/noticias/2025-08-06-05.jpeg"],
         date: "06 de Agosto del 2025",
         priority: 2,
         links: [],
         tags: []
     },
+    { 
+        id: 63,
+        title: "🔥 ¡Las chicas de la Sub 14 están listas! 🔥",
+        brief: "Este domingo nos vamos a la CAI para disputar un partidazo emocionante 💪⚽",
+        description: "🗓 Domingo\n 🕒 15:00 hrs\n\n📍 Cancha de la CAI – Segunda rotonda, al final.",
+        img: ["/assets/images/noticias/2025-08-06-06.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 64,
+        title: "¡La Sub 19 vuelve a la cancha!",
+        brief: "Este domingo 10 a las 12:30 hs nuestros chicos enfrentan su segundo encuentro en la cancha de Unión San Luis ⚽🔥",
+        description: "💪 Vamos a alentar a los Granaderos, que van con todo en busca de otra gran actuación.\n¡No faltes! 💙🤍\n\n#VamosGranaderos #Sub19 #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-06-07.jpeg"],
+        date: "06 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+
 
 
 
