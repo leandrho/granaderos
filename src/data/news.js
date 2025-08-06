@@ -512,7 +512,7 @@ export const news = [
         description: "📅 Domingo 3 de agosto\n🕙 10:00 hs\n📍 Cancha River plate ruta 3\n\n💪 ¡Acompañanos a alentar a los chicos!🔵⚪ ¡Vamos Granaderos!",
         img: ["/assets/images/noticias/2025-07-30-05.jpeg"],
         date: "30 de Julio del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -556,7 +556,7 @@ export const news = [
         description: "🕛 12:00 hrs\n📍 Cancha Ave Fénix\n\n¡Te esperamos para alentar a nuestros pequeños guerreros! 💪⚽\n¡Vamos Granaderos!",
         img: ["/assets/images/noticias/2025-08-06-03.jpeg"],
         date: "06 de Agosto del 2025",
-        priority: 2,
+        priority: 1,
         links: [],
         tags: []
     },
