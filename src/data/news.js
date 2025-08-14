@@ -556,7 +556,7 @@ export const news = [
         description: "🕛 12:00 hrs\n📍 Cancha Ave Fénix\n\n¡Te esperamos para alentar a nuestros pequeños guerreros! 💪⚽\n¡Vamos Granaderos!",
         img: ["/assets/images/noticias/2025-08-06-03.jpeg"],
         date: "06 de Agosto del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -604,7 +604,94 @@ export const news = [
         links: [],
         tags: []
     },
-
+    { 
+        id: 65,
+        title: "Categoria 2015 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #Sub19 #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-01.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 66,
+        title: "Categoria Sub14 Femenino ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-02.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 67,
+        title: "Categoria 2013 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-03.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 68,
+        title: "Categoria 2010 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-04.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 69,
+        title: "Categoria 2012 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-05.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 69,
+        title: "Categoria Sub14 Femenino ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-06.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 70,
+        title: "Categoria Sub19 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-07.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 1,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 71,
+        title: "Categoria 2008 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-14-08.jpeg"],
+        date: "14 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 
