@@ -677,7 +677,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-08-14-07.jpeg"],
         date: "14 de Agosto del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -692,6 +692,40 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 72,
+        title: "Encuentro de Futbol ⚽🔥",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-20-01.jpeg"],
+        date: "20 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 73,
+        title: "Categoria Sub19 ⚽🔥",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-20-02.jpeg"],
+        date: "20 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 73,
+        title: "Categoria 2013 ⚽🔥",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-20-03.jpeg"],
+        date: "20 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+
 
 
 
