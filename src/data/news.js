@@ -517,6 +517,39 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 79,
+        title: "Categoria 2008 ⚽🔥",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-28-02.jpeg"],
+        date: "28 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 80,
+        title: "Categoria Sub14 Femenino ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-28-01.jpeg"],
+        date: "28 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 81,
+        title: "Categoria 2014 ⚽✨",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-08-28-03.jpeg"],
+        date: "28 de Agosto del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 
