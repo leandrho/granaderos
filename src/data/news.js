@@ -243,7 +243,7 @@ export const news = [
         tags: []
     },
      { 
-        id: 69,
+        id: 46,
         title: "Categoria 2012 ⚽✨",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
