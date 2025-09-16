@@ -1,28 +1,6 @@
 export const news = [
 
     { 
-        id: 47,
-        title: "Femenino Sub14 ⚽✨",
-        brief: "Este domingo 6 de julio a las 17hs, las Sub 14 tienen un partido importante!! ",
-        description: "¡Es hora de dejar todo en la cancha y demostrar que también somos imparables! 💪\n¡Vamos, chicas! Que con todo el apoyo, ¡nada es imposible! 🙌\n\n📍 Cancha: Ave Fénix\n🔵🔴 #VamosSub14 #FuerzaChicas #AganemosJuntas #JugadorasDeCorazón",
-        img: ["/assets/images/noticias/2025-07-03-02.jpeg"],
-        date: "3 de Julio del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 48,
-        title: "Se viene un partidazo! ⚽🔥",
-        brief: "Este domingo 6 a las 15:00 hrs, la 2013 se enfrenta de local a Olimpo. ¡Es hora de demostrar todo el apoyo!",
-        description: "¡Vamos que se puede, equipo! 💪🎉\n\nNo faltes, necesitamos toda la energía para traer la victoria.\n🔵🔴 #VamosPorTodo",
-        img: ["/assets/images/noticias/2025-07-03-03.jpeg"],
-        date: "3 de Julio del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
         id: 49,
         title: "⚽🔥¡Programación 2016 Escuelita! ⚽",
         brief: "2016 vs Victoria 🔥",
