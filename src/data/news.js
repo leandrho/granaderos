@@ -1,28 +1,6 @@
 export const news = [
 
     { 
-        id: 49,
-        title: "⚽🔥¡Programación 2016 Escuelita! ⚽",
-        brief: "2016 vs Victoria 🔥",
-        description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 12:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
-        img: ["/assets/images/noticias/2025-07-03-04.jpeg"],
-        date: "3 de Julio del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 50,
-        title: "⚽🔥¡Programación 2015⚽",
-        brief: "2015 vs Victoria 🔥",
-        description: "🗓 Fecha: Domingo 6 de Julio\n🕛 Horario: 13:30 hs\nCancha: Ave Fenix\n¡Vamos Granadereros!",
-        img: ["/assets/images/noticias/2025-07-03-05.jpeg"],
-        date: "3 de Julio del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
         id: 51,
         title: "No vamos a Mendoza 💪⚽✨",
         brief: "Independiente Rivadavia recibe a los Granaderos de Koslay - 🚨🚨 Seguilo en Vivo 🚨🚨",
