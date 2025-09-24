@@ -568,7 +568,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-09-18-01.jpeg"],
         date: "18 de Septiembre del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -711,7 +711,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-09-24-07.jpeg"],
         date: "24 de Septiembre del 2025",
-        priority: 2,
+        priority: 1,
         links: [],
         tags: []
     },
