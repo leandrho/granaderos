@@ -638,6 +638,18 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 108,
+        title: "Categoria 2014 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-09-24-01.jpeg"],
+        date: "24 de Septiembre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+
 
 
 
