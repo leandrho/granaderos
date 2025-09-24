@@ -671,6 +671,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 111,
+        title: "Categoria Sub19 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-09-24-04.jpeg"],
+        date: "24 de Septiembre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 
