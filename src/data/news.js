@@ -502,7 +502,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-10-03-01.jpeg"],
         date: "03 de Octubre del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -567,6 +567,17 @@ export const news = [
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-10-03-07.jpeg"],
+        date: "03 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 122,
+        title: "Categoria Sub19 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-09-01.jpeg"],
         date: "03 de Octubre del 2025",
         priority: 2,
         links: [],
