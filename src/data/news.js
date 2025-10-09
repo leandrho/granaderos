@@ -656,7 +656,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-10-09-08.jpeg"],
         date: "09 de Octubre del 2025",
-        priority: 2,
+        priority: 1,
         links: [],
         tags: []
     },
