@@ -656,7 +656,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-10-09-08.jpeg"],
         date: "09 de Octubre del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -671,6 +671,73 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 131,
+        title: "Categoria 2010 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-01.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 132,
+        title: "Categoria 2008 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-02.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 133,
+        title: "Categoria Sub 14 Femenino 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-03.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 134,
+        title: "Categoria 2013 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-04.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 135,
+        title: "Categoria 2014 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-05.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 1,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 136,
+        title: "Categoria 2015 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-10-22-06.jpeg"],
+        date: "22 de Octubre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+
 
 
 
