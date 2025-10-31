@@ -797,7 +797,7 @@ export const news = [
         title: "Categoria 2015 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2025-10-29-05.jpeg"],
+        img: ["/assets/images/noticias/2025-10-29-06.jpeg"],
         date: "30 de Octubre del 2025",
         priority: 2,
         links: [],
