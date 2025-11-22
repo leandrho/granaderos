@@ -105,7 +105,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-11-13-03.jpeg"],
         date: "13 de Noviembre del 2025",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -121,7 +121,7 @@ export const news = [
         tags: []
     },
     { 
-        id: 153,
+        id: 154,
         title: "Categoria 2008 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -132,7 +132,7 @@ export const news = [
         tags: []
     },
      { 
-        id: 154,
+        id: 155,
         title: "Categoria sub19 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -143,7 +143,7 @@ export const news = [
         tags: []
     },
     { 
-        id: 155,
+        id: 156,
         title: "Categoria 2010 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -154,7 +154,7 @@ export const news = [
         tags: []
     },
     { 
-        id: 156,
+        id: 157,
         title: "Categoria 2008 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -165,18 +165,18 @@ export const news = [
         tags: []
     },
     { 
-        id: 157,
+        id: 158,
         title: "Categoria 2014 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2025-11-19-04.jpeg"],
         date: "19 de Noviembre del 2025",
-        priority: 2,
+        priority: 1,
         links: [],
         tags: []
     },
     { 
-        id: 158,
+        id: 159,
         title: "Categoria Sub14 Femenino 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -187,7 +187,7 @@ export const news = [
         tags: []
     },
      { 
-        id: 159,
+        id: 160,
         title: "Categoria 2013 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
@@ -198,7 +198,7 @@ export const news = [
         tags: []
     },
     { 
-        id: 160,
+        id: 161,
         title: "Categoria 2015 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
