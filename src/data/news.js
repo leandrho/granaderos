@@ -274,6 +274,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 168,
+        title: "Categoria Sub14 Femenino 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2025-12-02-02.jpeg"],
+        date: "04 de Diciembre del 2025",
+        priority: 2,
+        links: [],
+        tags: []
+    },
     
 
 
