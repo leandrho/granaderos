@@ -126,7 +126,7 @@ export const news = [
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-03-11-01.jpeg"],
-        date: "03 de Marzo del 2026",
+        date: "11 de Marzo del 2026",
         priority: 1,
         links: [],
         tags: []
@@ -137,7 +137,18 @@ export const news = [
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-03-11-02.jpeg"],
-        date: "03 de Marzo del 2026",
+        date: "11 de Marzo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 176,
+        title: "Encuentro categoria 2019 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-03-11-03.jpeg"],
+        date: "11 de Marzo del 2026",
         priority: 2,
         links: [],
         tags: []
