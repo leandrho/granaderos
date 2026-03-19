@@ -127,7 +127,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-03-11-01.jpeg"],
         date: "11 de Marzo del 2026",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -149,6 +149,39 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-03-11-03.jpeg"],
         date: "11 de Marzo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 177,
+        title: "Categoria 2012 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-03-19-01.jpeg"],
+        date: "19 de Marzo del 2026",
+        priority: 1,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 178,
+        title: "Categoria 2015 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-03-19-02.jpeg"],
+        date: "19 de Marzo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 179,
+        title: "Escuelita 2019 (los peques) ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-03-19-03.jpeg"],
+        date: "19 de Marzo del 2026",
         priority: 2,
         links: [],
         tags: []
