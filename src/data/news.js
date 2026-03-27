@@ -1,49 +1,5 @@
 export const news = [
     { 
-        id: 163,
-        title: "Categoria 2010 💪⚽",
-        brief: "",
-        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2025-11-26-02.jpeg"],
-        date: "26 de Noviembre del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 164,
-        title: "Categoria Sub14 Femenino💪⚽",
-        brief: "",
-        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2025-11-26-03.jpeg"],
-        date: "26 de Noviembre del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 165,
-        title: "Categoria 2013 💪⚽",
-        brief: "",
-        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2025-11-26-04.jpeg"],
-        date: "26 de Noviembre del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
-        id: 166,
-        title: "Categoria 2015 💪⚽",
-        brief: "",
-        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2025-11-26-05.jpeg"],
-        date: "26 de Noviembre del 2025",
-        priority: 2,
-        links: [],
-        tags: []
-    },
-    { 
         id: 167,
         title: "Categoria 2008 💪⚽",
         brief: "",
