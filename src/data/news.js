@@ -209,11 +209,22 @@ export const news = [
         tags: []
     },
      { 
-        id: 185,
+        id: 186,
         title: "Escuelita de fútbol promocional - Encuentro 💪⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-04-16-02.jpeg"],
+        date: "17 de Abril del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 187,
+        title: "Categoría 2012 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-04-16-03.jpeg"],
         date: "17 de Abril del 2026",
         priority: 2,
         links: [],
