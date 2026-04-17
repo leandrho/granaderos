@@ -171,7 +171,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-04-09-01.jpeg"],
         date: "09 de Abril del 2026",
-        priority: 1,
+        priority: 2,
         links: [],
         tags: []
     },
@@ -193,6 +193,17 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-04-09-03.jpeg"],
         date: "09 de Abril del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 185,
+        title: "Encuentro, Escuales de fútbol infantil",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-04-16-01.jpeg"],
+        date: "17 de Abril del 2026",
         priority: 2,
         links: [],
         tags: []
