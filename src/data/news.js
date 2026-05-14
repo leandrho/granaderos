@@ -325,6 +325,17 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-05-12-03.jpeg"],
         date: "13 de Mayo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+     { 
+        id: 196,
+        title: "Torneo Municipal ⚽⚽⚽ 💪⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-05-14-01.jpeg"],
+        date: "14 de Mayo del 2026",
         priority: 1,
         links: [],
         tags: []
