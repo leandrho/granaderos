@@ -336,11 +336,43 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-05-14-01.jpeg"],
         date: "14 de Mayo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 197,
+        title: "Categoría 2012 ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-05-27-01.jpeg"],
+        date: "27 de Mayo del 2026",
         priority: 1,
         links: [],
         tags: []
     },
-
+    { 
+        id: 198,
+        title: "Escuelita de fútbol promocional - Encuentro ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-05-27-02.jpeg"],
+        date: "27 de Mayo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 199,
+        title: "Categoría 2015 ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-05-27-03.jpeg"],
+        date: "27 de Mayo del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 
 ];
