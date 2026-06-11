@@ -439,6 +439,28 @@ export const news = [
         links: [],
         tags: []
     },
+     { 
+        id: 206,
+        title: "Escuelita de fútbol promocional - Encuentro ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-06-11-03.jpeg"],
+        date: "11 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+      { 
+        id: 207,
+        title: "Amistoso - Categoria 2015 ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-06-11-04.jpeg"],
+        date: "11 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 ];
 news.reverse();
