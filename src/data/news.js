@@ -435,7 +435,7 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-06-11-02.jpeg"],
         date: "11 de Junio del 2026",
-        priority: 2,
+        priority: 1,
         links: [],
         tags: []
     },
@@ -456,6 +456,17 @@ export const news = [
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-06-11-04.jpeg"],
+        date: "11 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 208,
+        title: "Amor-farrr 80s&90s - Chorilomo Argentino 🇦🇷🇦🇷 ",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-06-11-05.jpeg"],
         date: "11 de Junio del 2026",
         priority: 2,
         links: [],
