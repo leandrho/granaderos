@@ -428,6 +428,17 @@ export const news = [
         links: [],
         tags: []
     },
+     { 
+        id: 205,
+        title: "Categoría 2015 ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-06-11-02.jpeg"],
+        date: "11 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 ];
 news.reverse();
