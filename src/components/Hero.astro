@@ -36,9 +36,12 @@ const { general, title,title2, subtitle } = Astro.props;
         position: relative;
     }
     .hero-home{
-        background-image: url(/assets/images/escudo.png);
+        /* background-image: url(/assets/images/escudo.png);
         background-size: 330px 330px;
-        background-position: 80%;
+        background-position: 80%; */
+        background-image: url(/assets/images/mundial-hero.png);
+        background-size: 100% 100%;
+        background-position: right;
     }
     .hero-futbol{
         background-image: url(/assets/images/hero1.jpg);
@@ -92,19 +95,19 @@ const { general, title,title2, subtitle } = Astro.props;
        
             font-size: 1.5rem;
         }
-        .hero{
+        /* .hero{
             background-size: 50% 100%;
-        }
-        .hero::after{
+        } */
+        /* .hero::after{
             background-image: linear-gradient(to right, var(--bg-color) 50%, transparent );
-        }
-        .hero-home{
+        } */
+        /* .hero-home{
             background-size: 230px 230px;
             background-position: 80%;
-        }
-        .hero-home::after{
+        } */
+        /* .hero-home::after{
             background-image: none;
-        }
+        } */
     }
     @media screen and (max-width: 768px) {
         .hero-container{
@@ -118,21 +121,21 @@ const { general, title,title2, subtitle } = Astro.props;
             font-size: 1.35rem;
         }
         .hero{
-            height: 500px;
+            min-height: 500px;
         }
-        .hero{
+        /* .hero{
             background-size: 60% 100%;
-        }
-        .hero::after{
+        } */
+        /* .hero::after{
             background-image: linear-gradient(to right, var(--bg-color) 40%, transparent );
-        }
-        .hero-home{
+        } */
+        /* .hero-home{
             background-size: 180px 180px;
             background-position: 85%;
-        }
-        .hero-home::after{
+        } */
+        /* .hero-home::after{
             background-image: none;
-        }
+        } */
     }
     @media screen and (max-width: 550px) {
         .text{
@@ -153,19 +156,20 @@ const { general, title,title2, subtitle } = Astro.props;
             text-align: center;
         }
         .hero{
-            background-size: 75% 100%;
+           /* background-size: 75% 100%; */
             height: auto;
             min-height: 450px;
         }
-        .hero::after{
+        /* .hero::after{
             background-image: linear-gradient(to right, var(--bg-color) 30%, transparent );
-        }
+        } */
         .hero-home{
-            background-size: 110px 110px;
-            background-position: 50% 80%;
+            margin-top: 4rem;
+            /* background-size: 110px 110px; */
+            /* background-position: 50% 80%; */
         }
-        .hero-home::after{
+        /* .hero-home::after{
             background-image: none;
         }
-    }
+    } */
 </style>
