@@ -494,6 +494,17 @@ export const news = [
         links: [],
         tags: []
     },
+     { 
+        id: 211,
+        title: "🇦🇷🇦🇷 Categoria 2012 🇦🇷🇦🇷 ",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-06-26-02.jpeg"],
+        date: "26 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 ];
 news.reverse();
