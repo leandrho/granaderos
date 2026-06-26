@@ -488,8 +488,8 @@ export const news = [
         title: "Categoria 2015 - Amistoso 🇦🇷🇦🇷 ",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
-        img: ["/assets/images/noticias/2026-06-12-01.jpeg"],
-        date: "12 de Junio del 2026",
+        img: ["/assets/images/noticias/2026-06-26-01.jpeg"],
+        date: "26 de Junio del 2026",
         priority: 2,
         links: [],
         tags: []
