@@ -523,7 +523,29 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-06-26-03.jpeg"],
         date: "26 de Junio del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 214,
+        title: "Categoria 2015  ⚽ 💪 ⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-07-29-01.jpeg"],
+        date: "29 de Julio del 2026",
         priority: 1,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 215,
+        title: "Categoria 2012⚽ 💪 ⚽ ",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-07-29-01.jpeg"],
+        date: "29 de Julio del 2026",
+        priority: 2,
         links: [],
         tags: []
     },
