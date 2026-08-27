@@ -230,6 +230,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 220,
+        title: "Categoria 2010 ⚽⚽ ",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-08-27-02.jpeg"],
+        date: "27 de Agosto del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
 
 ];
 news.reverse();
