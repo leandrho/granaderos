@@ -276,7 +276,7 @@ export const news = [
     },
     { 
         id: 224,
-        title: "Categoria Sub10 ⚽⚽",
+        title: "Categoria 2012 ⚽⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-09-03-01.jpeg"],
@@ -287,10 +287,21 @@ export const news = [
     },
     { 
         id: 225,
-        title: "Categoria Sub10 ⚽⚽",
+        title: "Escuelita de fútbol promocional - Encuentro ⚽⚽",
         brief: "",
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-09-03-02.jpeg"],
+        date: "03 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 224,
+        title: "Categoria 2010 ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-03-03.jpeg"],
         date: "03 de Septiembre del 2026",
         priority: 2,
         links: [],
