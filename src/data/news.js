@@ -285,6 +285,17 @@ export const news = [
         links: [],
         tags: []
     },
+    { 
+        id: 225,
+        title: "Categoria Sub10 ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-03-02.jpeg"],
+        date: "03 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
     
 
 ];
