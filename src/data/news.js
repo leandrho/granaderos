@@ -358,11 +358,54 @@ export const news = [
         description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
         img: ["/assets/images/noticias/2026-09-10-04.jpeg"],
         date: "10 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 232,
+        title: "Categoria 2015  ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-16-01.jpeg"],
+        date: "16 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 233,
+        title: "Categoria 2010  ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-16-02.jpeg"],
+        date: "16 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 234,
+        title: "Categoria 2012  ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-16-03.jpeg"],
+        date: "16 de Septiembre del 2026",
+        priority: 2,
+        links: [],
+        tags: []
+    },
+    { 
+        id: 235,
+        title: "Escuelita de fútbol promocional - Encuentro  ⚽⚽",
+        brief: "",
+        description: "\n#VamosGranaderos #FútbolJuvenil #GranaderosEnAcción",
+        img: ["/assets/images/noticias/2026-09-16-04.jpeg"],
+        date: "16 de Septiembre del 2026",
         priority: 1,
         links: [],
         tags: []
     },
-    
 
 ];
 news.reverse();
